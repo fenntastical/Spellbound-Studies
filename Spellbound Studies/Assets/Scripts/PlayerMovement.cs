@@ -8,17 +8,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 moveInput;
-    //public Animator animator;
+    public Animator animator;
     //public Transform Aim;
 
     //Vector2 movement;
     //private Vector2 lastMoveDirection;
 
-    bool isWalking = false;
+    //bool isWalking = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -50,7 +51,17 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-     moveInput = context.ReadValue<Vector2>();
+        animator.SetBool("isWalking", true);
+        if (context.canceled)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetFloat("Last_Move_X", moveInput.x);
+            animator.SetFloat("Last_Move_Y", moveInput.y);
+
+        }
+        moveInput = context.ReadValue<Vector2>();
+        animator.SetFloat("Horizontal", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
     }
 
     //void FixedUpdate()
