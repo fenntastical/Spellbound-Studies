@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bedroom_Black_Shadow_Singles_332 1_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 1135451315, guid: 0c2d622abd24647b080a27fec83b86d1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.62352943, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
