@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Room_Builder_free_16x16_71
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 1313105287, guid: f63fca6c544de401faadd4397a2bdeeb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9056604, g: 0.7048772, b: 0.86837715, a: 1}
   m_Transform:
     e00: 1
     e01: 0
