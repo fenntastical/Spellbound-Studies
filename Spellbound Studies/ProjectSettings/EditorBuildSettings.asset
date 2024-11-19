@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Spellbound_Studies/Scenes/Scene/Scene.Application.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/MainMenu.unity
+    guid: a88f76f067ca48841aac769dec14a38c
   m_configObjects: {}
