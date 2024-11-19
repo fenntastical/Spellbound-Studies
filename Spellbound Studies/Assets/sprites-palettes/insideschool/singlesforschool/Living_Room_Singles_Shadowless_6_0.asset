@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Living_Room_Singles_Shadowless_6_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 250612192, guid: 519a8520b286b494ab7d26f0bc593da0, type: 3}
-  m_Color: {r: 1, g: 0.740566, b: 0.93934005, a: 1}
+  m_Color: {r: 1, g: 0.62352943, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0

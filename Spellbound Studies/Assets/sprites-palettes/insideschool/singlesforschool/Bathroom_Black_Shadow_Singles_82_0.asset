@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bathroom_Black_Shadow_Singles_82_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 1753633352, guid: 166b8439949354d26bb7e5919111cf90, type: 3}
-  m_Color: {r: 1, g: 0.75, b: 0.93485737, a: 1}
+  m_Color: {r: 1, g: 0.62352943, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0

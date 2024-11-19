@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kitchen_Singles_Shadowless_292_0
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -932079089, guid: 39186d024a93d42ba9e5d058cd39e87e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.62352943, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
