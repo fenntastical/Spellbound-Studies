@@ -179,8 +179,8 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1500062188}
   m_Lens:
-    FieldOfView: 60
-    OrthographicSize: 1.049379
+    FieldOfView: 67.67275
+    OrthographicSize: 10.1
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -225,7 +225,6 @@ GameObject:
   - component: {fileID: 633384351}
   - component: {fileID: 633384349}
   - component: {fileID: 633384348}
-  - component: {fileID: 633384353}
   - component: {fileID: 633384354}
   m_Layer: 0
   m_Name: Main Camera
@@ -263,7 +262,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -283,9 +282,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 67.67275
   orthographic: 1
-  orthographic size: 1.049379
+  orthographic size: 10.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -311,25 +310,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.226, y: 2.194, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &633384353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633384347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33eab832a8f544b4cbf21673982c1fd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetObject: {fileID: 1500062188}
-  cameraOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &633384354
 MonoBehaviour:
   m_ObjectHideFlags: 0
