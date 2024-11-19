@@ -20,9 +20,12 @@ public class BulletDamage : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collider)
+    void OnCollisionEnter2D(Collision2D collider)
     {
-        if(collider.gameObject.tag == "Player")
-        playerHealth.TakeDamage(damage);
+        print("Here!");
+        if(collider.gameObject.tag == "Player"){
+            playerHealth.TakeDamage(damage);
+            Destroy(gameObject);    
+        }
     }
 }

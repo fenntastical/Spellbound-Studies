@@ -9,14 +9,19 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(this.tag);
         health = maxHealth;
     }
+    void Update()
+    {
+        // print(health);
+    }
     public void TakeDamage(int amount)
+    {
+        health -= amount;
+        if (health <= 0)
         {
-            health -= amount;
-            if (health <= 0)
-            {
-                Destroy(gameObject);    
-            }
+            Destroy(gameObject);    
         }
+    }
 }
