@@ -22,7 +22,6 @@ public class BulletDamage : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collider)
     {
-        print("Here!");
         if(collider.gameObject.tag == "Player"){
             playerHealth.TakeDamage(damage);
             Destroy(gameObject);    

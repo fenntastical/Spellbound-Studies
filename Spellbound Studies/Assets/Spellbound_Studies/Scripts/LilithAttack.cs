@@ -1,0 +1,142 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LilithAttack : MonoBehaviour
+{
+    enum AttackPattern { Nothing, Cone, Tornado, Circle }
+    public GameObject[] spawnerList;
+    public GameObject[] bulletList;
+
+    [SerializeField] private AttackPattern patternType;
+    private int attackTimer;
+    private int currentTime = 0;
+    private bool lilithAlive = true;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(attackWaiter());
+    }
+
+    // Update is called once per frame
+    // void Update()
+    // {
+    //     while(lilithAlive == true)
+    //     {
+    //         attackWaiter();
+    //     }
+    // }
+
+    // public void TakeDamage(float damage)
+    // {
+    //     health -= damage;
+    //     if (health <= 0)
+    //     {
+    //         Destroy(gameObject);
+    //     }
+    // }
+
+    // public void OnCollisionEnter2D(Collision2D collider)
+    // {
+    //     if(collider.gameObject.tag == "Weapon"){
+    //         TakeDamage(1);
+    //     }
+    // }
+    IEnumerator attackWaiter()
+    {
+        while(lilithAlive == true)
+        {
+            RandomizeAttack();
+            //Wait for 5 seconds    
+            yield return new WaitForSeconds(5);
+            updateSpawnersNothing();
+            yield return new WaitForSeconds(2);
+        }
+    }
+
+    public void RandomizeAttack()
+    {
+        int attackChosen;
+        attackChosen = Random.Range(1, 4);
+        print(attackChosen);
+        switch(attackChosen)
+        {
+            case 1:
+                updateSpawnersCone();
+            break;
+            case 2:
+                updateSpawnersTornado();
+            break;
+            case 3:
+                updateSpawnersCircle();
+            break;
+        }
+    }
+
+    public void updateSpawnersCone()
+    {
+        int counter = 0;
+        float[] rotations = {10, 20, 30, 40};
+        foreach(GameObject spawner in spawnerList){
+            if(counter <= 3)
+            {
+                spawner.SetActive(true);
+                BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
+                bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Spin;
+                bulletSpawn.bullet = bulletList[1];
+                bulletSpawn.firingRate = 0.2f;
+                spawner.transform.rotation = Quaternion.Euler(0,0,rotations[counter]);
+            }
+            else
+                spawner.SetActive(false);
+            counter++;
+        }
+    }
+
+    public void updateSpawnersTornado()
+    {
+        int counter = 0;
+        float[] rotations = {0, 90, 180, 270};
+        foreach(GameObject spawner in spawnerList){
+            if(counter <= 3)
+            {
+                spawner.SetActive(true);
+                BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
+                bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Spin;
+                bulletSpawn.firingRate = 0.2f;
+                bulletSpawn.bullet = bulletList[0]; 
+                spawner.transform.rotation = Quaternion.Euler(0,0,rotations[counter]);
+            }
+            else
+                spawner.SetActive(false);
+            counter++;
+        }
+    }
+
+    public void updateSpawnersCircle()
+    {
+        int counter = 0;
+        float[] rotations = {0, 45, 90, 135, 180, 225, 270, 315};
+        foreach(GameObject spawner in spawnerList){
+            if(counter <= 7)
+            {
+                spawner.SetActive(true);
+                BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
+                bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
+                bulletSpawn.firingRate = 0.6f; 
+                bulletSpawn.bullet = bulletList[2]; 
+                spawner.transform.rotation = Quaternion.Euler(0,0,rotations[counter]);
+            }
+            else
+                spawner.SetActive(false);
+            counter++;
+        }
+    }
+
+    public void updateSpawnersNothing()
+    {
+        foreach(GameObject spawner in spawnerList)
+            spawner.SetActive(false);
+    }
+}
