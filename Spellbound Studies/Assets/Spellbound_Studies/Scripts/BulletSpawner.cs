@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
 {
-    enum SpawnerType { Straight, Spin }
+    [HideInInspector] public enum SpawnerType { Straight, Spin }
 
 
     [Header("Bullet Attributes")]
@@ -15,8 +15,8 @@ public class BulletSpawner : MonoBehaviour
 
 
     [Header("Spawner Attributes")]
-    [SerializeField] private SpawnerType spawnerType;
-    [SerializeField] private float firingRate = 1f;
+    [SerializeField] public SpawnerType spawnerType;
+    public float firingRate = 1f;
 
 
     private GameObject spawnedBullet;

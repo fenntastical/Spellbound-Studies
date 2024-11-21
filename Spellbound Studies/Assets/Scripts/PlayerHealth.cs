@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 10;
+    public GameObject healthPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
+        Destroy(healthPanel.transform.GetChild(0).gameObject);
         if (health <= 0)
         {
             Destroy(gameObject);    

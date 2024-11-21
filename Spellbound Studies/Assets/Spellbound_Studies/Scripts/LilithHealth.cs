@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class LilithHealth : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+     public float moveSpeed = 2f;
     Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
 
-    float health, maxHealth = 3f;
+    public float health, maxHealth = 3f;
 
 //    public PlayerHealth playerHealth;
 //    public int damage = 2;
@@ -21,26 +21,16 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         health = maxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (target)
-        {
-            Vector2 direction = (target.position-transform.position).normalized;
-            moveDirection = direction;
-        }
         
     }
     private void FixedUpdate()
     {
-        if (target)
-        {
-            rb.velocity = new Vector2 (moveDirection.x, moveDirection.y) * moveSpeed;
-        }
     }
     public void TakeDamage(float damage)
     {
