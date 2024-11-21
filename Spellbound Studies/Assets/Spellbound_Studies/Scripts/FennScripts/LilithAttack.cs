@@ -16,6 +16,9 @@ public class LilithAttack : MonoBehaviour
     [HideInInspector] public bool talking = true;
     private bool continueAttack = false;
 
+    float maxHealth = 50f;
+    float health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,14 +43,14 @@ public class LilithAttack : MonoBehaviour
         // }
     }
 
-    // public void TakeDamage(float damage)
-    // {
-    //     health -= damage;
-    //     if (health <= 0)
-    //     {
-    //         Destroy(gameObject);
-    //     }
-    // }
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // public void OnCollisionEnter2D(Collision2D collider)
     // {

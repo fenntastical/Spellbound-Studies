@@ -7,6 +7,10 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxHealth = 10;
     public GameObject healthPanel;
+
+    public GameMgr gameMgr;
+
+    private bool isDead = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +25,11 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= amount;
         Destroy(healthPanel.transform.GetChild(0).gameObject);
-        if (health <= 0)
+        if (health <= 0 && !isDead )
         {
-            Destroy(gameObject);    
+            isDead = true;
+            gameMgr.gameOver();
+            gameObject.SetActive(false);    
         }
     }
 }

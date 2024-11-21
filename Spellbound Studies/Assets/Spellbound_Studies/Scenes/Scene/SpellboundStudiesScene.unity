@@ -574,6 +574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  maxHealth: 50
+  health: 200
 --- !u!1 &1500062184
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +747,7 @@ MonoBehaviour:
   health: 0
   maxHealth: 10
   healthPanel: {fileID: 0}
+  gameMgr: {fileID: 0}
 --- !u!1839735485 &1500062193
 Tilemap:
   m_ObjectHideFlags: 0
