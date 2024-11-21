@@ -13,20 +13,32 @@ public class LilithAttack : MonoBehaviour
     private int currentTime = 0;
     private bool lilithAlive = true;
 
+    [HideInInspector] public bool talking = true;
+    private bool continueAttack = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(attackWaiter());
+        updateSpawnersNothing();
     }
 
     // Update is called once per frame
-    // void Update()
-    // {
-    //     while(lilithAlive == true)
-    //     {
-    //         attackWaiter();
-    //     }
-    // }
+    void Update()
+    {
+        if(talking == false & continueAttack == false)
+        {
+            StartCoroutine(attackWaiter());
+            continueAttack = true;
+        }
+        
+        // if(continueAttack == true)
+        // {
+        //     while(lilithAlive == true)
+        //     {
+        //         attackWaiter();
+        //     }
+        // }
+    }
 
     // public void TakeDamage(float damage)
     // {
@@ -47,6 +59,7 @@ public class LilithAttack : MonoBehaviour
     {
         while(lilithAlive == true)
         {
+            // yield return new WaitForSeconds(2);
             RandomizeAttack();
             //Wait for 5 seconds    
             yield return new WaitForSeconds(5);

@@ -29,7 +29,7 @@ public class playerCombat : MonoBehaviour
     //     //detects enemies within range of attack
     //     //damages enemies
     // }
-     public GameObject Melee;
+     //public GameObject Melee;
     bool isAttacking = false;
     float atkDuration = 0.3f;
     float atkTimer = 0f;
@@ -52,8 +52,8 @@ public class playerCombat : MonoBehaviour
     {
         if(!isAttacking)
         {
-            Melee.SetActive(true);
-            isAttacking = true;
+            // Melee.SetActive(true);
+            // isAttacking = true;
             animator.SetTrigger("Attack");
         }
     }
