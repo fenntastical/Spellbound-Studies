@@ -5,64 +5,36 @@ using UnityEngine;
 public class playerCombat : MonoBehaviour
 {
     public Animator animator;
-    private GameObject weapon;
-    // Update is called once per frame
-    // void Start()
-    // {
-    //     weapon = GameObject.FindWithTag("Weapon");
-    //     weapon.SetActive(false);
-    // }
-    // void Update()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.Mouse0))
-    //     {
-    //         Attack();
-    //     }
-    // }
-
-    // void Attack()
-    // {
-    //     //plays an attack animation
-    //     // weapon.SetActive(true);
-    //     animator.SetTrigger("Attack");
-
-    //     //detects enemies within range of attack
-    //     //damages enemies
-    // }
-     //public GameObject Melee;
-    bool isAttacking = false;
-    float atkDuration = 0.3f;
-    float atkTimer = 0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public Transform attackPoint;
+    public LayerMask enemyLayers;
+     
+    public float attackRange = 0.5f;
+    public float attackDamage = 40;
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            OnAttack();
+            Attack();
         }
     }
+    void Attack()
+    {
+        //plays an attack animation
+        animator.SetTrigger("Attack");
 
-    void OnAttack()
-    {
-        if(!isAttacking)
+        //detects enemies within range of attack
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        //damages enemies
+        foreach (Collider2D enemy in hitEnemies)
         {
-            // Melee.SetActive(true);
-            // isAttacking = true;
-            animator.SetTrigger("Attack");
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
     }
-    void CheckMeleeTimer()
+    private void OnDrawGizmosSelected()
     {
-        atkTimer += Time.deltaTime;
-        if(atkTimer >= atkDuration)
-        {
-            atkTimer = 0;
-        }
+        if (attackPoint == null)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

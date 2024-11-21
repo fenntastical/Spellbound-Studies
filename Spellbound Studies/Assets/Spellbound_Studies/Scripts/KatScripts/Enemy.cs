@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float moveSpeed = 2f;
+    public float moveSpeed = 1f;
     Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
 
-    float health, maxHealth = 3f;
+    float maxHealth = 50f;
+    float health;
 
-//    public PlayerHealth playerHealth;
-//    public int damage = 2;
     // Start is called before the first frame update
     private void Awake()
     {
