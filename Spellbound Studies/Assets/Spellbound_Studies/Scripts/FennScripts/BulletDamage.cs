@@ -11,7 +11,8 @@ public class BulletDamage : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        playerHealth = player.GetComponent<PlayerHealth>();
+        if(player != null)
+            playerHealth = player.GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame

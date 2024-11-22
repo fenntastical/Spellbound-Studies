@@ -7,6 +7,7 @@ public class UIHealthPanel : MonoBehaviour
     public GameObject heart;
     public PlayerHealth healthScript;
     public GameObject parent;
+    public PanelMover panelMover;
 
     // Start is called before the first frame update
     void Start()
@@ -22,4 +23,10 @@ public class UIHealthPanel : MonoBehaviour
     void Update()
     {
     }
+
+    public void updatePanel()
+    {
+        panelMover.isVisible = true;
+    }
+
 }

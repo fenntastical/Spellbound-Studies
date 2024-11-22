@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Scene/insideschool.unity
     guid: 1877d4e7403694ff897d2bdd9e3eb53d
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/LilithEnterCutscene.unity
+    guid: c69d859e8c6ced446b0e7b01295d0f40
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/OccultClubBoss.unity
+    guid: d36742370a24dbd47a9e05132ef7c845
   m_configObjects: {}

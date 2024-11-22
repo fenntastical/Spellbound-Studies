@@ -9,8 +9,8 @@ public class Enemy : MonoBehaviour
     Transform target;
     Vector2 moveDirection;
 
-    float maxHealth = 50f;
-    float health;
+    public float maxHealth = 200f;
+    [HideInInspector] public float health = 200f;
 
     // Start is called before the first frame update
     private void Awake()
