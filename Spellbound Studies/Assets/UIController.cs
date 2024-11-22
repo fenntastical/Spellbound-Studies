@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
-    public Slider _musicSlider, _sfxSlider;
+    public Slider _MusicSlider, _SFXSlider;
     public void ToggleMusic()
     {
         AudioMgr.Instance.ToggleMusic();
@@ -16,11 +16,11 @@ public class UIController : MonoBehaviour
     }
     public void MusicVolume()
     {
-        AudioMgr.Instance.MusicVolume(_musicSlider.value);
+        AudioMgr.Instance.MusicVolume(_MusicSlider.value);
     }
 
     public void SFXVolume()
     {
-        AudioMgr.Instance.SFXVolume(_sfxSlider.value);
+        AudioMgr.Instance.SFXVolume(_SFXSlider.value);
     }
 }
