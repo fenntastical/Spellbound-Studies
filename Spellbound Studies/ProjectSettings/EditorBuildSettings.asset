@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Scene/occultlevels.unity
     guid: 718bd255fe8be4c8aa35deabdce942ed
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/SchoolFirstEnterCutscene.unity
+    guid: 250a69ef01862a7458d72bf2455f69fa
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/SchoolFutureEnter.unity
+    guid: 2b88314cd6ca5d84093fbf3146e97017
   m_configObjects: {}

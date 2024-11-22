@@ -9,6 +9,7 @@ public class AudioMgr : MonoBehaviour
     public static AudioMgr Instance;
     public Sound[] MusicSounds, SFXSounds;
     public AudioSource MusicSource, SFXSource;
+    public string AudioName;
 
     public void Awake()
     {
@@ -25,7 +26,7 @@ public class AudioMgr : MonoBehaviour
 
     public void Start()
     {
-        PlayMusic("Main Menu");
+        PlayMusic(AudioName);
     }
     public void PlayMusic(string name)
     {

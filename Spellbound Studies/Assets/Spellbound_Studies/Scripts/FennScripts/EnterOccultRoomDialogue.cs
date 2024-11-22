@@ -15,13 +15,19 @@ public class EnterOccultRoomDialogue : MonoBehaviour
     bool dialogueDone = false;
     bool nyxDone = false;
     public int desiredScene = 0;
-    [HideInInspector] public bool secondHalf = false;
     // Start is called before the first frame update
+    void Start()
+    {
+        nyxDone = false;
+        NyxDialogue.inprogress = false;
+        canStart = false;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (changeTime <= 0 && secondHalf == false)
+        changeTime -= Time.deltaTime;
+        if (changeTime <= 0)
         {
             director.playableGraph.GetRootPlayable(0).SetSpeed(0);
             canStart = true;

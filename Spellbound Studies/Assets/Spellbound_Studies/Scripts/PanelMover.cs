@@ -64,6 +64,11 @@ public class PanelMover : MonoBehaviour
         isVisible = false;
     }
 
+    public void PanelShow()
+    {
+        isVisible = true;
+    }
+
     public void SetVisiblePosition(Vector2 position)
     {
         visiblePosition = position;

@@ -9,13 +9,18 @@ public class PlayerHealth : MonoBehaviour
     public GameObject healthPanel;
 
     public GameMgr gameMgr;
+    
 
     private bool isDead = false;
     // Start is called before the first frame update
+    void Awake()
+    {
+        health = maxHealth;
+    }
     void Start()
     {
-        Debug.Log(this.tag);
-        health = maxHealth;
+        // DontDestroyOnLoad(gameObject);
+        // health = maxHealth;
     }
     void Update()
     {

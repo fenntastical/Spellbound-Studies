@@ -67,6 +67,14 @@ public class Room : MonoBehaviour
     {
         foreach (Door door in doors)
         {
+            if(locked == true){
+                SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
+                doorRender.enabled = false;
+            }
+            if(locked == false){
+                SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
+                doorRender.enabled = true;
+            }
             door.locked = locked;
         }
     }
