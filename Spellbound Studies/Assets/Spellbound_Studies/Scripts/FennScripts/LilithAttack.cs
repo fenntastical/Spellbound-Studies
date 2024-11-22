@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class LilithAttack : MonoBehaviour
 {
     enum AttackPattern { Nothing, Cone, Tornado, Circle }
+    public GameObject enemySpawnPoints;
+    public List<Vector3> enemySpawnPositions;
+    public int minEnemies;
+    public int maxEnemies;
+    public List<GameObject> enemyPrefabs;
+    public List<GameObject> enemies;
     public GameObject[] spawnerList;
     public GameObject[] bulletList;
     public Animator animator;
@@ -18,6 +25,8 @@ public class LilithAttack : MonoBehaviour
     private bool continueAttack = false;
 
     float maxHealth = 50f;
+    public Enemy lHealth;
+    bool bigAttack = false;
     float health;
 
     // Start is called before the first frame update
@@ -25,6 +34,12 @@ public class LilithAttack : MonoBehaviour
     {
         updateSpawnersNothing();
         animator = GetComponent<Animator>();
+        enemySpawnPositions = new List<Vector3>();
+        foreach(Transform transform in enemySpawnPoints.GetComponentsInChildren<Transform>())
+        {
+            enemySpawnPositions.Add(transform.position);
+        }
+        enemySpawnPositions.Remove(transform.position);
 
     }
 
@@ -36,7 +51,18 @@ public class LilithAttack : MonoBehaviour
             StartCoroutine(attackWaiter());
             continueAttack = true;
         }
+
+        if(lHealth.health <= 500 && bigAttack == false)
+        {
+            SpawnWave();
+            bigAttack = true;
+        }
         AudioMgr.Instance.PlaySFX("Lilith Attack");
+        for (int i = enemies.Count - 1; i > -1; i--)
+            {
+                if (enemies[i] == null)
+                    enemies.RemoveAt(i);
+            }
 
         // if(continueAttack == true)
         // {
@@ -72,6 +98,21 @@ public class LilithAttack : MonoBehaviour
             yield return new WaitForSeconds(5);
             updateSpawnersNothing();
             yield return new WaitForSeconds(2);
+        }
+    }
+    
+    public void SpawnWave()
+    {
+        int upperBound = Mathf.Min(maxEnemies, enemySpawnPositions.Count);
+        int numToSpawn = Random.Range(minEnemies, upperBound);
+        List<Vector3> spawnsToUse = new List<Vector3>(enemySpawnPositions);
+        for (int i = 0; i < numToSpawn; i++)
+        {
+            int spawnPosIndex = Random.Range(0, spawnsToUse.Count);
+            int enemyPrefabIndex = Random.Range(0, enemyPrefabs.Count);
+            GameObject newEnemy = Instantiate(enemyPrefabs[enemyPrefabIndex], spawnsToUse[spawnPosIndex], Quaternion.identity);
+            enemies.Add(newEnemy);
+            spawnsToUse.RemoveAt(spawnPosIndex);
         }
     }
 

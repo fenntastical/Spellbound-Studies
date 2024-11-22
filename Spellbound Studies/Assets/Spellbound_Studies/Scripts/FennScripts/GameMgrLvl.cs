@@ -13,6 +13,7 @@ public class GameMgrLvl : MonoBehaviour
     [HideInInspector] public bool loadNext;
     public GameObject player;
     [HideInInspector] public bool endReached = false;
+    
     private void Awake()
     {
         // inst = this;
