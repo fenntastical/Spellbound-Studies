@@ -7,8 +7,8 @@ using Unity.VisualScripting;
 public class AudioMgr : MonoBehaviour
 {
     public static AudioMgr Instance;
-    public Sound[] musicSounds, sfxSounds;
-    public AudioSource musicSource, sfxSource;
+    public Sound[] MusicSounds, SFXSounds;
+    public AudioSource MusicSource, SFXSource;
 
     public void Awake()
     {
@@ -29,46 +29,46 @@ public class AudioMgr : MonoBehaviour
     }
     public void PlayMusic(string name)
     {
-        Sound s = Array.Find(musicSounds, x => x.name == name);
+        Sound s = Array.Find(MusicSounds, x => x.name == name);
         if (s == null)
         {
             Debug.Log("Sound Not Found");
         }
         else
         {
-            musicSource.clip = s.clip;
-            musicSource.Play();
+            MusicSource.clip = s.clip;
+            MusicSource.Play();
         }
     }
     public void PlaySFX(string name)
     {
-        Sound s = Array.Find(sfxSounds, x => x.name == name);
+        Sound s = Array.Find(SFXSounds, x => x.name == name);
         if (s == null)
         {
             Debug.Log("Sound Not Found");
         }
         else
         {
-            sfxSource.PlayOneShot(s.clip);
+            SFXSource.PlayOneShot(s.clip);
         }
     }
 
     public void ToggleMusic()
     {
-        musicSource.mute = !musicSource.mute;
+        MusicSource.mute = !MusicSource.mute;
     }
     public void ToggleSFX()
     {
-        sfxSource.mute = !sfxSource.mute;
+        SFXSource.mute = !SFXSource.mute;
     }
 
     public void MusicVolume(float volume)
     {
-        musicSource.volume = volume;
+        MusicSource.volume = volume;
     }
 
     public void SFXVolume(float volume)
     {
-        sfxSource.volume = volume;
+        SFXSource.volume = volume;
     }
 }

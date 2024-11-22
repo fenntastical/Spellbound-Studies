@@ -16,13 +16,13 @@ public class playerCombat : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
+            AudioMgr.Instance.PlaySFX("Attack");
         }
     }
     void Attack()
     {
         //plays an attack animation
         animator.SetTrigger("Attack");
-
         //detects enemies within range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         //damages enemies
