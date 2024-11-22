@@ -79,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: -279894801
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -995825184, guid: a54b2ec45bc340049a8282592ce38eab, type: 3}
-  m_Color: {r: 0.8306236, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: -1062346765, guid: 134df5a1f2a4dad4ab20816e72dab3df, type: 3}
+  m_Color: {r: 0.7849769, g: 0.47659308, b: 0.8490566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -160,8 +160,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.25, y: 1.3125}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.125, y: 0.8125}
     newSize: {x: 1.25, y: 1.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  maxHealth: 200
+  maxHealth: 20
   health: 200
 --- !u!95 &7418892916407653969
 Animator:
