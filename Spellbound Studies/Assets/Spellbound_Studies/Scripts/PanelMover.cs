@@ -59,6 +59,11 @@ public class PanelMover : MonoBehaviour
         SetVisiblePosition(visiblePosition);
     }
 
+    public void PanelHide()
+    {
+        isVisible = false;
+    }
+
     public void SetVisiblePosition(Vector2 position)
     {
         visiblePosition = position;
