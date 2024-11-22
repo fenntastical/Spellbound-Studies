@@ -503,6 +503,7 @@ GameObject:
   - component: {fileID: 143100770}
   - component: {fileID: 143100775}
   - component: {fileID: 143100776}
+  - component: {fileID: 143100778}
   m_Layer: 8
   m_Name: Boss
   m_TagString: Lilith
@@ -546,7 +547,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5, y: 2.5}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -643,7 +644,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 1f2bc3b0d2858ce4faffc41c52491264, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a49665c1a76d6949b4db0e7d6d52cbc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -694,6 +695,7 @@ MonoBehaviour:
   - {fileID: 8652383860030217343, guid: c7a4bb44cf349e1499ecc0b3762d7e79, type: 3}
   - {fileID: 8652383860030217343, guid: f9a564ecb42bd0640902c5b3e3c9dbd1, type: 3}
   - {fileID: 8652383860030217343, guid: 328ee0e2a33a8da428bdb9d1043989d0, type: 3}
+  animator: {fileID: 143100778}
   patternType: 0
   talking: 1
 --- !u!114 &143100776
@@ -746,6 +748,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.36}
   m_Size: {x: 1.5, y: 1.3095624}
   m_Direction: 0
+--- !u!95 &143100778
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143100769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 083435e477e588c41ad2291bf25671fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &154979415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3891,7 +3914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   rb: {fileID: 1547571727}
-  animator: {fileID: 0}
+  animator: {fileID: 1547571725}
 --- !u!50 &1547571727
 Rigidbody2D:
   serializedVersion: 4
