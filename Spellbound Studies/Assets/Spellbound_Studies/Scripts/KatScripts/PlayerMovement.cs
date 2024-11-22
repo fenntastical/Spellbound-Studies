@@ -20,11 +20,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb.velocity = moveInput * moveSpeed;
-
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     animator.SetBool("Attack", true);
-        // }
     }
 
     public void Move(InputAction.CallbackContext context)

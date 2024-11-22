@@ -7,6 +7,7 @@ public class LilithAttack : MonoBehaviour
     enum AttackPattern { Nothing, Cone, Tornado, Circle }
     public GameObject[] spawnerList;
     public GameObject[] bulletList;
+    public Animator animator;
 
     [SerializeField] private AttackPattern patternType;
     private int attackTimer;
@@ -23,6 +24,8 @@ public class LilithAttack : MonoBehaviour
     void Start()
     {
         updateSpawnersNothing();
+        animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -33,7 +36,8 @@ public class LilithAttack : MonoBehaviour
             StartCoroutine(attackWaiter());
             continueAttack = true;
         }
-        
+        AudioMgr.Instance.PlaySFX("Lilith Attack");
+
         // if(continueAttack == true)
         // {
         //     while(lilithAlive == true)
@@ -73,6 +77,7 @@ public class LilithAttack : MonoBehaviour
 
     public void RandomizeAttack()
     {
+        animator.SetTrigger("Attack");
         int attackChosen;
         attackChosen = Random.Range(1, 4);
         // print(attackChosen);
