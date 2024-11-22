@@ -21,9 +21,9 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(healthSlider.value != health)
+        if(healthSlider.value != enemy.health)
         {
-            healthSlider.value = health;
+            healthSlider.value = enemy.health;
         }
         
         if(healthSlider.value != easeHealthSlider.value)

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Enemy : MonoBehaviour
 {
@@ -46,7 +48,10 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            Destroy(gameObject);
+            if(gameObject.tag == "Lilith")
+                SceneManager.LoadScene(4);
+            else
+                Destroy(gameObject);
         }
     }
 }
