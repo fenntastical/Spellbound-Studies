@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMgrLvl : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class GameMgrLvl : MonoBehaviour
     public List<Room> rooms;
     public int numRooms;
     public int currentRoom;
-    bool loadNext;
+    [HideInInspector] public bool loadNext;
     public GameObject player;
+    [HideInInspector] public bool endReached = false;
     private void Awake()
     {
         // inst = this;
@@ -27,13 +29,20 @@ public class GameMgrLvl : MonoBehaviour
         }
         roomIndexes.Add(rooms.Count - 1);
         currentRoom = -1;
+        currentRoom++;
         loadNext = true;
+        endReached = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (loadNext)
+        if(currentRoom == numRooms)
+        {
+            SceneManager.LoadScene(2);
+            // endReached = true;
+        }
+        if (loadNext == true && endReached == false)
         {
             NextRoom();
             loadNext = false;
@@ -42,7 +51,7 @@ public class GameMgrLvl : MonoBehaviour
 
     public void NextRoom()
     {
-        currentRoom++;
+        // currentRoom++;
         rooms[roomIndexes[currentRoom]].EnterRoom(player.transform, 1, 3, 2);
     }
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Cutscene/LilithDefeatCutscene.unity
     guid: e9f0b340d2542e743a184e8f08caa3ea
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/occultlevels.unity
+    guid: 718bd255fe8be4c8aa35deabdce942ed
   m_configObjects: {}

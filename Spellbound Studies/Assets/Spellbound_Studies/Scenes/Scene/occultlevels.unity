@@ -26656,7 +26656,7 @@ MonoBehaviour:
   holdingPosition: {x: 5000, y: 0}
   visiblePosition: {x: 0, y: 0}
   panel: {fileID: 534765492}
-  _isVisible: 0
+  _isVisible: 1
   isTimed: 0
   showDuration: 5
 --- !u!114 &534765494
@@ -28309,7 +28309,7 @@ Camera:
   far clip plane: 1000
   field of view: 67.67275
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -50795,7 +50795,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
   doors:
-  - {fileID: 0}
+  - {fileID: 134637111}
   enemies: []
 --- !u!4 &1080578350
 Transform:
@@ -84977,7 +84977,7 @@ MonoBehaviour:
   - {fileID: 1022450824}
   - {fileID: 1080578349}
   - {fileID: 1944982100}
-  numRooms: 5
+  numRooms: 1
   currentRoom: 0
   player: {fileID: 293175088}
 --- !u!1 &1614520040
@@ -110394,7 +110394,7 @@ MonoBehaviour:
   m_Follow: {fileID: 293175098}
   m_Lens:
     FieldOfView: 67.67275
-    OrthographicSize: 5
+    OrthographicSize: 5.5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

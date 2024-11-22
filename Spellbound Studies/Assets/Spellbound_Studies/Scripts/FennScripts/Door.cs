@@ -24,7 +24,15 @@ public class Door : MonoBehaviour
 
     public void Interact()
     {
-        lvl.NextRoom();
+        lvl.currentRoom++;
+        if(lvl.currentRoom < lvl.numRooms)
+        {
+            lvl.loadNext = true;
+        }
+        else
+        {
+            lvl.endReached = true;
+        }
     }
 
 
