@@ -75,7 +75,7 @@ public class LilithAttack : MonoBehaviour
     {
         int attackChosen;
         attackChosen = Random.Range(1, 4);
-        print(attackChosen);
+        // print(attackChosen);
         switch(attackChosen)
         {
             case 1:
