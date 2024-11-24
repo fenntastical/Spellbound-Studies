@@ -35,5 +35,11 @@ public class PlayerMovement : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("Horizontal", moveInput.x);
         animator.SetFloat("Vertical", moveInput.y);
+
+        if (moveInput.x != 0 || moveInput.y != 0)
+        {
+            animator.SetFloat("Last_Move_X", moveInput.x);
+            animator.SetFloat("Last_Move_Y", moveInput.y);
+        }
     }
 }
