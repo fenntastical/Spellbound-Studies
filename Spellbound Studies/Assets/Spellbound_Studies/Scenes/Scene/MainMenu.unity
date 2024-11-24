@@ -634,7 +634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 163}
+  m_AnchoredPosition: {x: 0, y: 53.6}
   m_SizeDelta: {x: 277.7906, y: 69.598}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &299201895
@@ -659,15 +659,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'By: Homebody Studios'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
-  m_sharedMaterial: {fileID: 7331796482582588970, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
+  m_sharedMaterial: {fileID: -7979533237938750720, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4284056016
+  m_fontColor: {r: 0.81568635, g: 0.5058824, b: 0.34901962, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2300,7 +2300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 223}
+  m_AnchoredPosition: {x: 0, y: 214.4}
   m_SizeDelta: {x: 733.8798, y: 89.1951}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &755458392
@@ -2325,15 +2325,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Spellbound Studies:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
-  m_sharedMaterial: {fileID: 7331796482582588970, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
+  m_sharedMaterial: {fileID: -7979533237938750720, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4285025876
+  m_fontColor: {r: 0.32941177, g: 0.30588236, b: 0.40784317, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2350,13 +2350,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 77.2
+  m_fontSizeBase: 77.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 35
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3693,8 +3693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195}
-  m_SizeDelta: {x: 453.1931, y: 32.612}
+  m_AnchoredPosition: {x: 0, y: 114.5}
+  m_SizeDelta: {x: 855.5, y: 32.612}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1626603725
 MonoBehaviour:
@@ -3718,15 +3718,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mastering the Arcane
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
-  m_sharedMaterial: {fileID: 7331796482582588970, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
+  m_sharedMaterial: {fileID: -7979533237938750720, guid: 6cb54372ff36ea849a562f9f293e8ce1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286212493
+  m_fontColor: {r: 0.5529412, g: 0.41176474, b: 0.4784314, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3743,13 +3743,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
