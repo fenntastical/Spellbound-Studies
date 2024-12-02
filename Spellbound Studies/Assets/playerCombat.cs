@@ -12,13 +12,21 @@ public class playerCombat : MonoBehaviour
 
     public float attackRange = 0.5f;
     public float attackDamage = 40;
+    private float timer;
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Attack();
-            AudioMgr.Instance.PlaySFX("Attack");
+            if (timer > .5)
+            {
+                timer = 0;
+                Attack();
+                AudioMgr.Instance.PlaySFX("Attack");
+            }
+            // Attack();
+            // AudioMgr.Instance.PlaySFX("Attack");
         }
     }
     void Attack()

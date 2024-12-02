@@ -1292,7 +1292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4000, y: 0}
+  m_AnchoredPosition: {x: 4000, y: 5000}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41961866
@@ -19394,7 +19394,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
-  attackRange: 1
+  attackRange: 1.5
   attackDamage: 40
 --- !u!1839735485 &293175092
 Tilemap:
@@ -25540,7 +25540,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 888819890}
+  m_Father: {fileID: 534765492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -25591,10 +25591,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 41961864}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 41961866}
+        m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
+        m_MethodName: PanelShow
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -25602,7 +25602,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &388211394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27904,6 +27904,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 388211392}
+  - {fileID: 1027265956}
   - {fileID: 10968926}
   m_Father: {fileID: 888819890}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30967,10 +30969,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 837601230}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 837601232}
+        m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
+        m_MethodName: PanelHide
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -36467,6 +36469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837601231}
+  - component: {fileID: 837601232}
   m_Layer: 5
   m_Name: SoundPanel
   m_TagString: Untagged
@@ -36497,9 +36500,27 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -110, y: -61}
+  m_AnchoredPosition: {x: 10000, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &837601232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837601230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ffa42e24f5b624dbda285baf5e5a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdingPosition: {x: 10000, y: 0}
+  visiblePosition: {x: -101, y: -34}
+  panel: {fileID: 837601231}
+  _isVisible: 0
+  isTimed: 0
+  showDuration: 5
 --- !u!1 &844835579
 GameObject:
   m_ObjectHideFlags: 0
@@ -52069,8 +52090,6 @@ RectTransform:
   - {fileID: 1738281974}
   - {fileID: 41961865}
   - {fileID: 837601231}
-  - {fileID: 1027265956}
-  - {fileID: 388211392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -52367,6 +52386,7 @@ MonoBehaviour:
   currentWave: 0
   enemyPrefabs:
   - {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
+  - {fileID: 6953662107797823422, guid: 248680abfc578bb468896f4855ff078f, type: 3}
   doors:
   - {fileID: 516703042}
   enemies: []
@@ -52420,7 +52440,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 888819890}
+  m_Father: {fileID: 534765492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -52471,10 +52491,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 837601230}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 837601232}
+        m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
+        m_MethodName: PanelShow
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -52482,7 +52502,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1027265958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53034,6 +53054,7 @@ MonoBehaviour:
   currentWave: 0
   enemyPrefabs:
   - {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
+  - {fileID: 6953662107797823422, guid: 248680abfc578bb468896f4855ff078f, type: 3}
   doors:
   - {fileID: 134637111}
   enemies: []
@@ -92577,6 +92598,7 @@ MonoBehaviour:
   currentWave: 0
   enemyPrefabs:
   - {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
+  - {fileID: 6953662107797823422, guid: 248680abfc578bb468896f4855ff078f, type: 3}
   doors:
   - {fileID: 359016308}
   enemies: []

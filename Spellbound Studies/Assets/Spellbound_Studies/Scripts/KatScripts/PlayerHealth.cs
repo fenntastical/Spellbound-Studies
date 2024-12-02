@@ -30,7 +30,9 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= amount;
         AudioMgr.Instance.PlaySFX("Damage");
-        Destroy(healthPanel.transform.GetChild(0).gameObject);
+        for(int i = 0; i <= amount - 1; i++){
+            Destroy(healthPanel.transform.GetChild(i).gameObject);
+        }
         if (health <= 0 && !isDead )
         {
             isDead = true;
