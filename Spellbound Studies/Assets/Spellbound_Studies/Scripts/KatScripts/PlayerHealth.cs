@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
-        //AudioMgr.Instance.PlaySFX("Damage");
+        AudioMgr.Instance.PlaySFX("Damage");
         Destroy(healthPanel.transform.GetChild(0).gameObject);
         if (health <= 0 && !isDead )
         {

@@ -46,6 +46,8 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+        AudioMgr.Instance.PlaySFX("Enemy Damage");
+
         //i think knockback would be called here 
         if (health <= 0)
         {

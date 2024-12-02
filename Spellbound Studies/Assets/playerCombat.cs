@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class playerCombat : MonoBehaviour
 {
+    public GameObject Melee;
+    //bool isAttacking = false;
     public Animator animator;
     public Transform attackPoint;
     public LayerMask enemyLayers;
-     
+
     public float attackRange = 0.5f;
     public float attackDamage = 40;
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class playerCombat : MonoBehaviour
         //damages enemies
         foreach (Collider2D enemy in hitEnemies)
         {
+            Melee.SetActive(false);
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
         }
     }
