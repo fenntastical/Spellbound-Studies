@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 
@@ -9,7 +10,10 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 1f;
     Rigidbody2D rb;
     Transform target;
+    int enemy;
     Vector2 moveDirection;
+    public UnityEvent<GameObject> OnHitWithReference;
+
 
     public float maxHealth = 200f;
     [HideInInspector] public float health = 200f;
@@ -23,6 +27,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        enemy = GameObject.FindGameObjectWithTag("Enemies");
         health = maxHealth;
     }
 
@@ -47,9 +52,13 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
         AudioMgr.Instance.PlaySFX("Enemy Damage");
+        if (health > 0)
+        {
+            OnHitWithReference?.Invoke(enemy));
+        }
 
-        //i think knockback would be called here 
-        if (health <= 0)
+            //i think knockback would be called here 
+            if (health <= 0)
         {
             if(gameObject.tag == "Lilith")
                 SceneManager.LoadScene(4);

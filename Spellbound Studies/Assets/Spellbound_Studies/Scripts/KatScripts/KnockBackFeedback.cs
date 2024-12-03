@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class KnockBack : MonoBehaviour
+public class KnockBackFeedback : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    private Rigidbody rb2d;
+    private Rigidbody2D rb;
+
     [SerializeField]
-    private float strength= 16, delay= 0.15f;
+    private float strength = 16, delay= 0.15f;
+
     public UnityEvent OnBegin, OnDone;
 
     public void PlayFeedBack(GameObject sender)
@@ -17,14 +19,14 @@ public class KnockBack : MonoBehaviour
         StopAllCoroutines();
         OnBegin?.Invoke();
         Vector2 direction = (transform.position-sender.transform.position).normalized;
-        rb2d.AddForce(direction * strength, ForceMode.Impulse);
+        rb.AddForce(direction * strength, ForceMode2D.Impulse);
         StartCoroutine(Reset());
     }
 
     private IEnumerator Reset()
     {
         yield return new WaitForSeconds(delay);
-        rb2d.velocity = Vector3.zero;
+        rb.velocity = Vector3.zero;
         OnDone?.Invoke();
     }
 }

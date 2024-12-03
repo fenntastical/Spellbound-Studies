@@ -1351,6 +1351,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  OnHitWithReference:
+    m_PersistentCalls:
+      m_Calls: []
   maxHealth: 20
   health: 200
 --- !u!95 &761774384
@@ -1386,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5db3ba6935f124b9f52490bc59e512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb2d: {fileID: 0}
+  rb: {fileID: 0}
   strength: 16
   delay: 0.15
   OnBegin:
@@ -3395,7 +3398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5db3ba6935f124b9f52490bc59e512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb2d: {fileID: 0}
+  rb: {fileID: 5774066651257330808}
   strength: 16
   delay: 0.15
   OnBegin:
@@ -3417,6 +3420,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  OnHitWithReference:
+    m_PersistentCalls:
+      m_Calls: []
   maxHealth: 60
   health: 200
 --- !u!1 &7810388272786895403
