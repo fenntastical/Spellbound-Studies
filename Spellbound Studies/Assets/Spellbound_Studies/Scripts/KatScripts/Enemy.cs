@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 1f;
     Rigidbody2D rb;
     Transform target;
-    int enemy;
+    private GameObject enemy;
     Vector2 moveDirection;
     public UnityEvent<GameObject> OnHitWithReference;
 
@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour
         AudioMgr.Instance.PlaySFX("Enemy Damage");
         if (health > 0)
         {
-            OnHitWithReference?.Invoke(enemy));
+            OnHitWithReference?.Invoke(enemy);
         }
 
             //i think knockback would be called here 
