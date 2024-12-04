@@ -8912,7 +8912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9198113, b: 0.9198113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13798,6 +13798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f92717217d75a41bf3239d750192d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Melee: {fileID: 0}
   animator: {fileID: 569846999}
   attackPoint: {fileID: 0}
   enemyLayers:
@@ -13895,6 +13896,7 @@ MonoBehaviour:
   moveSpeed: 6
   rb: {fileID: 569847001}
   animator: {fileID: 0}
+  Aim: {fileID: 0}
 --- !u!50 &569847001
 Rigidbody2D:
   serializedVersion: 4
@@ -13964,7 +13966,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a0c50bf9aeb48ff44b39c1e98f0e266f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.85490197, b: 0.85490197, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15310,7 +15312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: -9.186707}
+  m_AnchoredPosition: {x: 146, y: -24}
   m_SizeDelta: {x: 899.1598, y: 202.9552}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891848597
@@ -15335,15 +15337,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bring it on!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
-  m_sharedMaterial: {fileID: 7331796482582588970, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16864c18f26abad48a0be2121b78f5c1, type: 2}
+  m_sharedMaterial: {fileID: -5587275656505829974, guid: 16864c18f26abad48a0be2121b78f5c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292261095
-  m_fontColor: {r: 0.9056604, g: 0.7048772, b: 0.8387326, a: 1}
+    rgba: 4287917735
+  m_fontColor: {r: 0.654902, g: 0.43137258, b: 0.5803922, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20241,8 +20243,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2}
-  m_SizeDelta: {x: 299.4554, y: 144.0867}
+  m_AnchoredPosition: {x: 19, y: 4.1743}
+  m_SizeDelta: {x: 340.0082, y: 71.6945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1484961627
 MonoBehaviour:
@@ -20266,15 +20268,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Laureli
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
-  m_sharedMaterial: {fileID: 7331796482582588970, guid: 65a19ef16d304924f98b2dea6c834798, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16864c18f26abad48a0be2121b78f5c1, type: 2}
+  m_sharedMaterial: {fileID: -5587275656505829974, guid: 16864c18f26abad48a0be2121b78f5c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292261095
-  m_fontColor: {r: 0.9056604, g: 0.7048772, b: 0.8387326, a: 1}
+    rgba: 4282914367
+  m_fontColor: {r: 0.2485436, g: 0.08677466, b: 0.2830189, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20291,8 +20293,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 85
+  m_fontSizeBase: 85
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20610,14 +20612,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.85490197, b: 0.85490197, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f67904c5a6268f146aa040b7622f2bb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c9519eb7f9fac9479fd86181f00db68, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21469,7 +21471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9198113, b: 0.9198113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

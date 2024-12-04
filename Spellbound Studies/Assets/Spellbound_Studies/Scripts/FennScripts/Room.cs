@@ -17,6 +17,7 @@ public class Room : MonoBehaviour
     public int currentWave;
     public List<GameObject> enemyPrefabs;
     public List<Door> doors;
+    public PanelMover unlockUI;
     public List<GameObject> enemies;
     // public List<Interactable> interactables;
 
@@ -32,6 +33,7 @@ public class Room : MonoBehaviour
 
     public void EnterRoom(Transform player, int minEnemies, int maxEnemies, int numWaves)
     {
+        unlockUI.isVisible = false;
         inRoom = true;
         // player.gameObject.GetComponent<NavMeshAgent>().enabled = false;
         player.position = playerSpawnPoint.position;
@@ -67,13 +69,16 @@ public class Room : MonoBehaviour
     {
         foreach (Door door in doors)
         {
+            
             if(locked == true){
                 SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
                 doorRender.enabled = false;
+                unlockUI.isVisible = false;
             }
             if(locked == false){
                 SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
                 doorRender.enabled = true;
+                unlockUI.isVisible = true;
             }
             door.locked = locked;
         }

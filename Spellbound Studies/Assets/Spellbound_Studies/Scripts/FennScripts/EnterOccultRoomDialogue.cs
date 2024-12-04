@@ -34,7 +34,6 @@ public class EnterOccultRoomDialogue : MonoBehaviour
         }
         if(canStart == true && NyxDialogue.inprogress == false && nyxDone == false)
         {
-            print("made it here");
             NyxDialogue.StopAllCoroutines();
             NyxDialogue.StartDialogue();
             nyxDone = true;

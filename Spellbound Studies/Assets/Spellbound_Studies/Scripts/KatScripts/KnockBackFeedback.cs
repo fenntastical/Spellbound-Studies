@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,12 +14,18 @@ public class KnockBackFeedback : MonoBehaviour
     private float strength = 16, delay= 0.15f;
 
     public UnityEvent OnBegin, OnDone;
+    private GameObject player;
 
-    public void PlayFeedBack(GameObject sender)
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag ("Player");
+    }
+
+    public void PlayFeedback()
     {
         StopAllCoroutines();
         OnBegin?.Invoke();
-        Vector2 direction = (transform.position-sender.transform.position).normalized;
+        Vector2 direction = (transform.position-player.transform.position).normalized;
         rb.AddForce(direction * strength, ForceMode2D.Impulse);
         StartCoroutine(Reset());
     }

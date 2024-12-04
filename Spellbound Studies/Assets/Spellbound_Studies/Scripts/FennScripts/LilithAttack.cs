@@ -52,7 +52,7 @@ public class LilithAttack : MonoBehaviour
             continueAttack = true;
         }
 
-        if(lHealth.health <= 500 && bigAttack == false)
+        if(lHealth.health <= 250 && bigAttack == false)
         {
             SpawnWave();
             bigAttack = true;
