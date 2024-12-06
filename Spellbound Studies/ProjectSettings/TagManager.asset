@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Weapon
+  - HealthPanel
+  - Lilith
   - Enemies
-  - Pot
-  - Undefined
-  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,9 +15,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Destructables
-  - 
-  - 
+  - Player
+  - PlayerBounds
+  - Enemies
   - 
   - 
   - 
@@ -42,24 +42,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 164145139
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: ground
-    uniqueID: 2030787071
+    uniqueID: 459098545
+    locked: 0
+  - name: building
+    uniqueID: 3082351753
     locked: 0
   - name: foreground
-    uniqueID: 1463069991
-    locked: 0
-  - name: walls
-    uniqueID: 3523378497
-    locked: 0
-  - name: on walls
-    uniqueID: 123398175
+    uniqueID: 2282441769
     locked: 0
   - name: decorations
-    uniqueID: 2931749169
+    uniqueID: 980725771
     locked: 0
-  - name: Player
-    uniqueID: 4184321285
+  - name: player
+    uniqueID: 4015072495
     locked: 0
