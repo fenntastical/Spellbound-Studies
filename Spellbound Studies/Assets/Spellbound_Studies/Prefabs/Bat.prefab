@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1704578879923826431}
   - component: {fileID: 1526722808137411692}
   - component: {fileID: 3530974252867867497}
+  - component: {fileID: 3204730765808642776}
   m_Layer: 8
   m_Name: Bat
   m_TagString: ignore
@@ -63,7 +64,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 6.411658, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7707540741281431358}
@@ -274,6 +275,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 5855649303685720979, guid: ffca32310f21b5640a5d05144754dd71, type: 3}
   bulletPos: {fileID: 2283666014048127143}
+--- !u!95 &3204730765808642776
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6953662107797823422}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60c8a1828f05caf43b63daaa5c08faed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &3687847312771827429
 PrefabInstance:
   m_ObjectHideFlags: 0
