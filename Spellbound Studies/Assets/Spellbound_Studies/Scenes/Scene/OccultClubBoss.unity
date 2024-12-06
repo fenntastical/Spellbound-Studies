@@ -1950,8 +1950,8 @@ GameObject:
   - component: {fileID: 366609935}
   - component: {fileID: 366609934}
   - component: {fileID: 366609933}
-  - component: {fileID: 366609932}
   - component: {fileID: 366609931}
+  - component: {fileID: 366609932}
   - component: {fileID: 366609930}
   - component: {fileID: 366609929}
   - component: {fileID: 366609928}
@@ -1979,6 +1979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerBullet: {fileID: 4653396201830213947, guid: 8fb40dd51ae7c064b999f79ea4c592e5, type: 3}
   BulletSpeed: 30
+  energyPanel: {fileID: 0}
 --- !u!114 &366609926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4568,7 +4569,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lilithDialogue: {fileID: 1665676100}
   NyxDialogue: {fileID: 2094152693}
-  playerMovement: {fileID: 0}
   Combat: {fileID: 366609928}
   attack: {fileID: 143100775}
   uipanel: {fileID: 1561002690}

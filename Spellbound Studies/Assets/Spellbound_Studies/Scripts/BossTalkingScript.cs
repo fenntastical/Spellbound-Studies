@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BossTalkingScript : MonoBehaviour
 {
+    private GameObject player;
     public Dialogue lilithDialogue;
     public Dialogue NyxDialogue;
-    public PlayerMovement playerMovement;
+    private PlayerMovement playerMovement;
     public playerCombat Combat;
     public LilithAttack attack;
     public UIHealthPanel uipanel;
@@ -16,6 +17,8 @@ public class BossTalkingScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerMovement = player.GetComponent<PlayerMovement>();
         playerMovement.enabled = false;
         Combat.enabled = false;
         // lilithDialogue.StartDialogue();

@@ -33,6 +33,7 @@ public class GameMgrLvl : MonoBehaviour
         currentRoom++;
         loadNext = true;
         endReached = false;
+        Time.timeScale = 0;
     }
 
     // Update is called once per frame
