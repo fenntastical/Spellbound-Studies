@@ -9197,6 +9197,17 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 256022654}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!114 &1127790693 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8577760873060557496, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+  m_PrefabInstance: {fileID: 1513692418}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1132350630
 GameObject:
   m_ObjectHideFlags: 0
@@ -11645,6 +11656,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 987227158905421939, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1619718695}
+    - target: {fileID: 987227158905421939, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654206120449200292, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1619718695}
+    - target: {fileID: 1654206120449200292, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 2415345828832358038, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -11656,6 +11683,14 @@ PrefabInstance:
     - target: {fileID: 2415345828832358038, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258299769546183778, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1619718695}
+    - target: {fileID: 3258299769546183778, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleSFX
       objectReference: {fileID: 0}
     - target: {fileID: 5030069316263155655, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11756,6 +11791,14 @@ PrefabInstance:
     - target: {fileID: 7495913184330477776, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_Color.g
       value: 0.9198113
+      objectReference: {fileID: 0}
+    - target: {fileID: 8577760873060557496, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1619718695}
+    - target: {fileID: 8577760873060557496, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SFXVolume
       objectReference: {fileID: 0}
     - target: {fileID: 8709586013846757988, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_AnchorMax.x
@@ -20335,6 +20378,7 @@ GameObject:
   - component: {fileID: 1619718693}
   - component: {fileID: 1619718692}
   - component: {fileID: 1619718691}
+  - component: {fileID: 1619718695}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -20430,6 +20474,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1619718695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619718690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9efb2295cdb068c4e9f879386da99dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _MusicSlider: {fileID: 1791177526}
+  _SFXSlider: {fileID: 1127790693}
 --- !u!1 &1625417651
 GameObject:
   m_ObjectHideFlags: 0
@@ -21460,6 +21518,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782127079}
   m_CullTransparentMesh: 1
+--- !u!114 &1791177526 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1654206120449200292, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+  m_PrefabInstance: {fileID: 1513692418}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1807739930
 GameObject:
   m_ObjectHideFlags: 0
