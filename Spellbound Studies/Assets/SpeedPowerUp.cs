@@ -1,5 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class SpeedUpPowerUp : MonoBehaviour
 {
     [SerializeField] private float speedBoost = 3f; 
@@ -9,13 +11,13 @@ public class SpeedUpPowerUp : MonoBehaviour
     {
         if (collision.CompareTag("Player")) 
         {
-            KatScripts.PlayerMovement playerMovement = collision.GetComponent<KatScripts.PlayerMovement>();
+            PlayerMovement playerMovement = collision.GetComponent<PlayerMovement>();
             if (playerMovement != null)
             {
                 playerMovement.StartCoroutine(playerMovement.IncreaseSpeed(speedBoost, duration));
             }
 
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
