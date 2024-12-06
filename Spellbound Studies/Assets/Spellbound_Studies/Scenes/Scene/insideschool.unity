@@ -993,7 +993,7 @@ Transform:
   m_GameObject: {fileID: 287719349}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 225.54, y: 179.34, z: 11.904304}
+  m_LocalPosition: {x: 224.06, y: 183.13, z: 11.904304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -10813,9 +10813,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1363218127
-  m_SortingLayer: 5
-  m_SortingOrder: 0
+  m_SortingLayerID: 1201677601
+  m_SortingLayer: 8
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

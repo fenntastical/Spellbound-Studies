@@ -9,6 +9,7 @@ TagManager:
   - Undefined
   - Bullet
   - Lilith
+  - ignore
   layers:
   - Default
   - TransparentFX
@@ -66,4 +67,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 1110818039
+    locked: 0
+  - name: school entrance
+    uniqueID: 1201677601
     locked: 0
