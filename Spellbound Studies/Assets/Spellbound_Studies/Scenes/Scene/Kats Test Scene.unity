@@ -2132,6 +2132,7 @@ MonoBehaviour:
   moveSpeed: 6
   rb: {fileID: 920632767}
   animator: {fileID: 0}
+  animator2: {fileID: 1863776606}
   Aim: {fileID: 935748508}
 --- !u!50 &920632767
 Rigidbody2D:
