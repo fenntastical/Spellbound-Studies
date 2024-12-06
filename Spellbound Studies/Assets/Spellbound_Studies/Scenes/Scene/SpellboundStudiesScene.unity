@@ -1200,15 +1200,15 @@ GameObject:
   - component: {fileID: 761774379}
   - component: {fileID: 761774378}
   - component: {fileID: 761774383}
-  - component: {fileID: 761774384}
   - component: {fileID: 761774385}
+  - component: {fileID: 761774386}
   m_Layer: 8
   m_Name: Slime
   m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &761774378
 Rigidbody2D:
   serializedVersion: 4
@@ -1369,27 +1369,6 @@ MonoBehaviour:
   knockBackFeedback: {fileID: 0}
   maxHealth: 20
   health: 200
---- !u!95 &761774384
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761774377}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bdf9a6cad8bb8b24587aa93a9392a167, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &761774385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1411,6 +1390,27 @@ MonoBehaviour:
   OnDone:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &761774386
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761774377}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f49ade28077b164aa022a6366d8e094, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &805864780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,6 +3268,7 @@ GameObject:
   - component: {fileID: 7767003221502932551}
   - component: {fileID: 7592527447472829652}
   - component: {fileID: 5579567767310060497}
+  - component: {fileID: 7767003221502932552}
   m_Layer: 8
   m_Name: Bat
   m_TagString: Enemies
@@ -3451,6 +3452,27 @@ MonoBehaviour:
   knockBackFeedback: {fileID: 0}
   maxHealth: 60
   health: 200
+--- !u!95 &7767003221502932552
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084691547598817030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e13a976e46ece864aac1fa26004c403c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7810388272786895403
 GameObject:
   m_ObjectHideFlags: 0
