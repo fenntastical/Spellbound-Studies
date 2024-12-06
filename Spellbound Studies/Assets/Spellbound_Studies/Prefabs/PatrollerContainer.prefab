@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8484031552913204099}
   - component: {fileID: 7831117482012419200}
   - component: {fileID: 4772692061889590555}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: patroller
   m_TagString: Enemies
   m_Icon: {fileID: 0}
@@ -197,9 +197,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 6
 --- !u!114 &4772692061889590555
 MonoBehaviour:
@@ -216,6 +216,7 @@ MonoBehaviour:
   pointA: {fileID: 4238765516380187321}
   pointB: {fileID: 5356323274275934642}
   speed: 2
+  playerHealth: {fileID: 0}
   damage: 1
 --- !u!1 &4238765516380187321
 GameObject:

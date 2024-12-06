@@ -9344,12 +9344,9 @@ GameObject:
   - component: {fileID: 1160347142}
   - component: {fileID: 1160347141}
   - component: {fileID: 1160347140}
-  - component: {fileID: 1160347139}
   - component: {fileID: 1160347138}
-  - component: {fileID: 1160347137}
   - component: {fileID: 1160347136}
   - component: {fileID: 1160347135}
-  - component: {fileID: 1160347145}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -9515,26 +9512,6 @@ PolygonCollider2D:
       - {x: 0.18933487, y: -0.06364918}
       - {x: 0.18738258, y: -0.017427683}
   m_UseDelaunayMesh: 0
---- !u!114 &1160347137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160347134}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3f92717217d75a41bf3239d750192d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Melee: {fileID: 371236639}
-  animator: {fileID: 1160347140}
-  attackPoint: {fileID: 560422644}
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  attackRange: 0.5
-  attackDamage: 40
 --- !u!1839735485 &1160347138
 Tilemap:
   m_ObjectHideFlags: 0
@@ -9573,22 +9550,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1160347139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160347134}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8adc6d6292336ea4293511364b7b2fd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 10
-  healthPanel: {fileID: 0}
-  gameMgr: {fileID: 0}
 --- !u!95 &1160347140
 Animator:
   serializedVersion: 5
@@ -9624,7 +9585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   rb: {fileID: 1160347142}
-  animator: {fileID: 0}
+  animator: {fileID: 1160347140}
   Aim: {fileID: 371236640}
 --- !u!50 &1160347142
 Rigidbody2D:
@@ -9695,7 +9656,7 @@ SpriteRenderer:
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a0c50bf9aeb48ff44b39c1e98f0e266f, type: 3}
-  m_Color: {r: 1, g: 0.8537736, b: 0.8537736, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9721,21 +9682,6 @@ Transform:
   - {fileID: 371236640}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1160347145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160347134}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80e762b4c74b19346b6d02ffb131bb8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerBullet: {fileID: 2987270793790815553, guid: 9e6ae23b2b7ddfd44ad505e4262e854a, type: 3}
-  BulletSpeed: 30
-  energyPanel: {fileID: 0}
 --- !u!1 &1176401728
 GameObject:
   m_ObjectHideFlags: 0
@@ -22267,18 +22213,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1568993552}
         m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
         m_MethodName: LoadScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 2061427346}
-        m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
-        m_MethodName: StartTime
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

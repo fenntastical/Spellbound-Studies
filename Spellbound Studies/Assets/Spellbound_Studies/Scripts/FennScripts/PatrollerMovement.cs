@@ -10,7 +10,7 @@ public class PatrollerMovement : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     public float speed;
-    private PlayerHealth playerHealth;
+    public PlayerHealth playerHealth;
     private GameObject player;
     public int damage = 1;
     // Start is called before the first frame update
@@ -22,7 +22,8 @@ public class PatrollerMovement : MonoBehaviour
         anim.SetBool("isWalkingRight", true);
         player = GameObject.FindWithTag("Player");
         if(player != null)
-            playerHealth = player.GetComponent<PlayerHealth>();  
+            playerHealth = player.GetComponent<PlayerHealth>();
+            
     }
 
     // Update is called once per frame
@@ -74,9 +75,6 @@ public class PatrollerMovement : MonoBehaviour
         if(collider.gameObject.tag == "Player"){
             playerHealth.TakeDamage(damage); 
             attackWaiter();
-        }
-        if(collider.gameObject.tag == "ignore"){
-            Physics2D.IgnoreCollision(collider.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
     

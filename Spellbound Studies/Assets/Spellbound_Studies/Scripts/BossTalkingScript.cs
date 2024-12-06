@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ using UnityEngine.InputSystem;
 
 public class BossTalkingScript : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class BossTalkingScript : MonoBehaviour
     {
         // player = GameObject.FindGameObjectWithTag("Player");
         // playerMovement = player.GetComponent<PlayerMovement>();
-        // playerMovement.enabled = false;
+        playerMovement.enabled = false;
         Combat.enabled = false;
         // lilithDialogue.StartDialogue();
         // lilithDialogue.inprogress = true;
@@ -42,7 +43,7 @@ public class BossTalkingScript : MonoBehaviour
         }
         if(NyxDialogue.inprogress == false && nyxDone == true && dialogueDone == false)
         {
-            // playerMovement.enabled = true;
+            playerMovement.enabled = true;
             Combat.enabled = true;
             attack.talking = false;
             dialogueDone = true;

@@ -22,6 +22,7 @@ public class Room : MonoBehaviour
     public List<GameObject> enemies;
     private bool uiDisplay = false;
     public List<GameObject> patrollers;
+    public GameObject powerupSpeed;
 
     // public List<Interactable> interactables;
 
@@ -37,6 +38,7 @@ public class Room : MonoBehaviour
         {
             patroller.SetActive(false);
         }
+        powerupSpeed.SetActive(false);
     }
 
     public void EnterRoom(Transform player, int minEnemies, int maxEnemies, int numWaves)
@@ -70,6 +72,12 @@ public class Room : MonoBehaviour
                 patrollers[1].SetActive(false);
                 patrollers[2].SetActive(true);
             break;
+        }
+
+        int isPowerUp = Random.Range(0, 2);
+        if (isPowerUp == 0)
+        {
+            powerupSpeed.SetActive(true);
         }
     }
 

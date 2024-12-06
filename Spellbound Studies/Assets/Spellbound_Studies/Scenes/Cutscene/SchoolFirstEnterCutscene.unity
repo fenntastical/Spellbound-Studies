@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 11295872}
   - component: {fileID: 11295871}
   - component: {fileID: 11295870}
-  - component: {fileID: 11295869}
   - component: {fileID: 11295868}
   - component: {fileID: 11295867}
   - component: {fileID: 11295866}
@@ -175,7 +174,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11295869}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
@@ -320,6 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Melee: {fileID: 0}
   animator: {fileID: 11295868}
+  swordAnim: {fileID: 0}
   attackPoint: {fileID: 0}
   enemyLayers:
     serializedVersion: 2
@@ -401,22 +401,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &11295869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11295862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fa33578bf107344fb03ac5a5309ba39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 6
-  rb: {fileID: 11295870}
-  animator: {fileID: 0}
-  Aim: {fileID: 0}
 --- !u!50 &11295870
 Rigidbody2D:
   serializedVersion: 4
