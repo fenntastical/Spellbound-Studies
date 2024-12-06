@@ -7,7 +7,7 @@ public class playerCombat : MonoBehaviour
     public GameObject Melee;
     //bool isAttacking = false;
     public Animator animator;
-    public Animator swordAnim;
+    //public Animator swordAnim;
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
@@ -34,7 +34,7 @@ public class playerCombat : MonoBehaviour
     {
         //plays an attack animation
         animator.SetTrigger("Attack");
-        swordAnim.SetTrigger("SwordAttack");
+        //swordAnim.SetTrigger("SwordAttack");
         //detects enemies within range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         //damages enemies

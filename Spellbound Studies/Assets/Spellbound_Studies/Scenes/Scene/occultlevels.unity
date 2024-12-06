@@ -19824,7 +19824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Melee: {fileID: 1895604969}
   animator: {fileID: 293175094}
-  swordAnim: {fileID: 0}
   attackPoint: {fileID: 449654706}
   enemyLayers:
     serializedVersion: 2
@@ -29966,6 +29965,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3937984960441784495, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -167943768, guid: 134df5a1f2a4dad4ab20816e72dab3df, type: 3}
     - target: {fileID: 4626552137615458679, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
       propertyPath: m_Name
       value: PowerUp
@@ -36800,6 +36803,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3937984960441784495, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -167943768, guid: 134df5a1f2a4dad4ab20816e72dab3df, type: 3}
     - target: {fileID: 4626552137615458679, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
       propertyPath: m_Name
       value: PowerUp
@@ -59119,6 +59126,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3937984960441784495, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -167943768, guid: 134df5a1f2a4dad4ab20816e72dab3df, type: 3}
     - target: {fileID: 4626552137615458679, guid: 669982bfad9fd4f509759d8f020339fb, type: 3}
       propertyPath: m_Name
       value: PowerUp
