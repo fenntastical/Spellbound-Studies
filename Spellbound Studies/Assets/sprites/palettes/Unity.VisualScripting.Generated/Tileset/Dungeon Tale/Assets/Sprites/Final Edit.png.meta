@@ -1,0 +1,5350 @@
+fileFormatVersion: 2
+guid: 94241fcb6b5aed24b80f2dfa242c820e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final Edit_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 485
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71c58005010924aa0e856f7517a5b5
+      internalID: -276658021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 480
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49765889b0f1d614aa942bdaab110dda
+      internalID: -632965521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 480
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32c8131d9f4be47a46820eb7be5b42
+      internalID: 921688575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 481
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd631e40129988c4793b849d365837d9
+      internalID: 697885086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 482
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930d5ad486aaed429185cf1de4f5796
+      internalID: 1077767048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 481
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9afd306a00b9f34c831d3df94007132
+      internalID: -350687591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 481
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741a80d6eba6856469eb67224c41c034
+      internalID: -1300085169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 483
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d41ebb43f07844b836866afb5552a2
+      internalID: -550166298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_8
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 483
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b066280137f2b42a2c6768ca6822c4
+      internalID: 2098677588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 477
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ccabdb7dec2d4a8896aaf69dadc40
+      internalID: 1149540013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 483
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ce9379fcac5b64fa83aa25f8cd88e4
+      internalID: -231513564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 481
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746adbb1d0d3dc549856be6b4e4b963d
+      internalID: -578422577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 481
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebcfd0f7d726254083097208633cbb5
+      internalID: -1510002293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 464
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aad48e54c0f0d44382685fa7eae0f70
+      internalID: 457848989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 465
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34cce12ac047c44985dc8030fec74a0
+      internalID: 1514429910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 466
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd64080edb462a2489be6c385c08c743
+      internalID: 1530824563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 465
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150dfd5153b5d684b80cfc0120febb7a
+      internalID: -632893019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 465
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f04c0b57c77f047876162460deb99c
+      internalID: 1234428546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 450
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1147f46df3b8d45a9896effddcdd14
+      internalID: 541171741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_19
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 444
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487db92516c8cce4898204d391378cbe
+      internalID: -1058900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 450
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1fa6f36b2745d4f91049166d8d9ee8
+      internalID: -1153936032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 450
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1a8cdbb9a7ef04eacf038bbecb4e97
+      internalID: 1504598390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 450
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66c61c7fefd144aaa5eec728dec448
+      internalID: 2041230282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_23
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 450
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c360f8a2e1db4ec49a2940ead5922fc3
+      internalID: 1001242554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_24
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 450
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a722385f420e4ea56da7b2d98e015
+      internalID: -1089929783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 450
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e98f9dbaa20b4f9d26c9e030d1192
+      internalID: 203173909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798209401ebf94140ae319532359f856
+      internalID: 790018888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 448
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41207abfd103a4184b65d0491117f8
+      internalID: 2021637421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_28
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 449
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0666482ca43954594813ba32b2db56
+      internalID: 1430152930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 450
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa3419e082be74dbffb79a1403d607
+      internalID: 281636210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 449
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15193b640694b104f8299269e0f578d2
+      internalID: -180286512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca8368f927108647bad0094445f7011
+      internalID: -1122703920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_32
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 450
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8aac57d4f346f4cb58dbefa792ab2c
+      internalID: 1363165801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 450
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481172cd869cdd2468041553b37f2836
+      internalID: -592703591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_34
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 451
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b0edf76d6591240aa04a9204152b1f
+      internalID: -1271819533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_35
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 451
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe9f8663ff5ba742a2661d859aba0ea
+      internalID: 320821902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_36
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 436
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4e2d9094e62d242891a96d0df3df9b
+      internalID: -955933491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_37
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 436
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4284ca1dcd6144995f186da55f6828
+      internalID: -192948716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 432
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48449c008d333cb4fb6001a422209d85
+      internalID: -1238449083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_39
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 433
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb9bf3ce8614c14f9d594ae189b45d0
+      internalID: 752761341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 434
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb291838f0b4746a24fcebbebadd76
+      internalID: -105612370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 433
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e48e799b396a8d4dbc2be32024c10b8
+      internalID: -481304038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 433
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6454056b62a9004dbd16922b8645e12
+      internalID: 187449375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_43
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 436
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aed76fc8beacec4486039779510563b
+      internalID: -910427957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 417
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99650a69721078940a13a4e6f2ef9670
+      internalID: -1259721283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_45
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 416
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0cd1da1b7ee8341932f421be6be83b
+      internalID: 673659070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_46
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 416
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed334e2a217dd624b8eac1148f376843
+      internalID: -1888659717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_47
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 369
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318c1e11a21d3054ab643dc4459b3980
+      internalID: -1060942733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_48
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 367
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff64944051988cd4da3c45dd884f53f6
+      internalID: -382902097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 400
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e345a34e8a66b4f83515d6f024543e
+      internalID: 759020787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 400
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d99340ed1983f4a8f86d20865f1ef7
+      internalID: 1191971878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 400
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77190c2c1a3cd11469aee9ed5dd291e8
+      internalID: -1822382607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 400
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ce3e524624872429e77bb71c6a546e
+      internalID: 314438463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 400
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ae8f00afb5244d977934a7cd754d6
+      internalID: -151908655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 400
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fac1681b7313c84bac7817e50e48dde
+      internalID: -1054175651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 400
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cba008a9e456a42a89d479d7598c86
+      internalID: -182630525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 400
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3796ea754d0864da5eea322d2b3012
+      internalID: -1602110382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_57
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 400
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afbceebf65fdd24babd7dff1f9b5f9b
+      internalID: -302752829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_58
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 400
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aecd9bc25346648809a6ad85b72c6f
+      internalID: 226248374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_59
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 400
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fdcf087b2991349bac6b883d38b439
+      internalID: 1567968580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_60
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 401
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7d48b94cb7cd4fbef36642c2efa68
+      internalID: -1234514104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48435f3f07bc54948ac95403f29a53d9
+      internalID: -1322897021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 400
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c14478dbe5c5540b3ed8af491cf499
+      internalID: -261930371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_63
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 400
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22460800bb4b9be4f91403fc22f0f96b
+      internalID: -1382663992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_64
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 367
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cadb9ba8400b34a82e943efe5cef3c
+      internalID: 889304657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_65
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 358
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80069209de0ab9a4b8ae65f6c3923df9
+      internalID: 512839806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_66
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 385
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0674d44ac19a2e24ab45e3a097fcb2a4
+      internalID: -1146881657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_67
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 385
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89ca2827655ac640a8e1aac510685ab
+      internalID: -161684584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_68
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 385
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c744652d90e11f4b9813e91155df74d
+      internalID: -1139543641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e26baf07d95fca46a124feea9873403
+      internalID: -965076472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_70
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 367
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b071459577c5454bb5c38dae7082dc9
+      internalID: -1958427178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_71
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 377
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f9001ff1cb4464c9f63d8018a9aa60
+      internalID: 779086261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 371
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e55779460bf00f44b40107880863d3f
+      internalID: -1123473586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74418e373c738c94a9d75f2ffbe0b9de
+      internalID: 1666920261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 369
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1490ae67bfa0a8145ae12950bdd45c63
+      internalID: 680091652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_75
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 368
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937fe24e80c432e458ca80e6fe550790
+      internalID: -1085985549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_76
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 358
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e8ff4cf2de25249984c5a7617acdb9
+      internalID: 1753983417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_77
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743d34c39d62327439b6b41a1ad74c2c
+      internalID: 456733844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_78
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 336
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b31c63d48b424409193fae724f3be2
+      internalID: 1053312146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_79
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 336
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c227572452fce9b468bf1282c1cc94dd
+      internalID: 87589883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_80
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 336
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec22723a150f10d43ae7dbd5fe744fa2
+      internalID: 265131543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 336
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27daeb087cd4f242a96e5b0965b303a
+      internalID: -1859182150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_82
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 336
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b60042d41c69a49b82fd88dc85675f
+      internalID: 1455909237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_83
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 336
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a270bb879732c4a953378745e86956
+      internalID: 1895973818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 339
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a321a0df098b946a37fa0fb448039d
+      internalID: -2028921996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_85
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 336
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4d05a8a1cdc2b479ed7313464d39bd
+      internalID: -815896685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432481742a8384a4190f8147b190db45
+      internalID: -1787196984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb415ee9e4910d5479c485afd7128ffd
+      internalID: 726286219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_88
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 340
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db56437da67c8c4086b427ec2f13ed6
+      internalID: 1278450884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_89
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 328
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ced943651d3ec4d9e5b6b9ad48a308
+      internalID: 1383163184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_90
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 337
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82ab45725d4ef499deaa8a169dfb38
+      internalID: 1961146479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_91
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2746bf9819509943842ae8d7f22192c
+      internalID: -1324368655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_92
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 337
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93512743e42637e488854ec343a07330
+      internalID: -832849073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_93
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c45bf790a1b346b558aa9fee2db5d
+      internalID: -1554488209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_94
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f1b90c6434624b9c7af6fb39f5d75
+      internalID: 742661209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_95
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 337
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9c0d4c1a5b23e45983ab7050123e08
+      internalID: 1397948850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_96
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5978f5f78d2dd2b4f86caf9e1e66ffdf
+      internalID: 1771061267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_97
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 337
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fb8084f68a64d4ebd4de1a0877dc6e
+      internalID: 38410806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_98
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 337
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db51ee2c926dc14ab1f8175a028314f
+      internalID: 2130372857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_99
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 337
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25c490908e026041bc81898da06122a
+      internalID: 283131161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_100
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 337
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fc6fb7884b2a44783af402b28d5a2f
+      internalID: 770721832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_101
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 334
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b844b91134c9e42af842d17ae61339
+      internalID: 1594749058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_102
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 337
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22232f09c8b1edf4889aab338e25033e
+      internalID: 1350999638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_103
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0409955d12adb6c45bd53c6ecad5a241
+      internalID: -1222880940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_104
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 304
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213aada440956164ba8a50fe70ca58aa
+      internalID: -1215057634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_105
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 304
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f71ba3c41fc9c44daef61beb7ace071
+      internalID: -1001345689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466359270ac55204788507b88bf32f02
+      internalID: -1502788737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_107
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 322
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9698f6b469384cac94ea91e28404d
+      internalID: -184233497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_108
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 320
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fafe2d8098aadc45a8019b753f9f755
+      internalID: 919418953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_109
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 322
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c2f3615b9973a4fa2263ba242c835c
+      internalID: -931285095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_110
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 321
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742db7e74e39cd446aacefd29be2ee2b
+      internalID: -1785858840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_111
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 302
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ed3099391822b4e9ebeff6cb427d96
+      internalID: 402342752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_112
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 302
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df2f88439092f4c8bfa94931c69870
+      internalID: -1997716551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_113
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 302
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97596f469d0ba0744b3fe2a509d52df5
+      internalID: 1780264456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_114
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 302
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ddacb2df4490b4ba678bcbb9bb1fc2
+      internalID: 1501132635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_115
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 302
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec367342d3a64664db5d874081991312
+      internalID: 2138374482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_116
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 302
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53f8fa2315a4094aa09dae95b5f4c9d
+      internalID: -1834210226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_117
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 302
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97a2a8a56170c0489b2a5f057d40c87
+      internalID: -1769287428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_118
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 302
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a4157d9b047344b60692e5881142c
+      internalID: -1276426414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_119
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 302
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1a917c4fc18754d90abf00631993d6
+      internalID: -1170330728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_120
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 302
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b2d160d79057348b9861ab03ab0f72
+      internalID: 1279148158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_121
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 304
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df17bd803b454841bb7848cdb5b690a
+      internalID: -229380719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_122
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 304
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ea0cfdbd44e9942903796dc24f35bd
+      internalID: -1428577563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843ce211be631d84bb4418879c8b7cfa
+      internalID: -1529672347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79165383398e524f808fa4cf7dad13f
+      internalID: -1839979780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3882b55a14df0bf469fe39b215410dae
+      internalID: -641603575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_126
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea91798a2be9fe84386725fa14d3503f
+      internalID: 1572751978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 179
+        width: 28
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc2d0ab3066e5f4091da7e3b50df9c7
+      internalID: 892556483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_128
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 238
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcfad33ad4801141a40d0ddf11856e3
+      internalID: -872773258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_129
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 270
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60aea450a7f3ab41803f9916f8473c0
+      internalID: 14337349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_130
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 271
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9f8b451c73e9a408f5b9ee9fb78a41
+      internalID: -2000715996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_131
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 276
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfe6887ca92e8544aa1504f9b626213
+      internalID: -681454968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 238
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c23669d7cf1a4f4ead9a70b1e5541ef
+      internalID: -348725259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_133
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 238
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc884d6c75d2154fa51a603f123ef02
+      internalID: -1175164970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_134
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74735cae169a79e44ab4d04c1bc84411
+      internalID: 1676048943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_135
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c930cea397094b4d9336f76fa91429f
+      internalID: 1142649482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_136
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 226
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88388f50a2bc6bb4f8e21cfa561d700f
+      internalID: 313911988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_137
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 243
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928ab3260e7d94f47a43c3008695a773
+      internalID: -1313566282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_138
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11e5433ec701c74c8d6d64111891346
+      internalID: 1809321484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca5bb73f948b9d488ae903260119d4f
+      internalID: -1201049119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_140
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 224
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a788da644bfba40acfc4858b68e830
+      internalID: -1987941971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_141
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 228
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3db4ea9d1bf0a40a6bddb1ae7bd3f3
+      internalID: -674595062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_142
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72e2162db3b299469530129205328ed
+      internalID: 2073506456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_143
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 213
+        width: 33
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8019d746f5544ea917e89cda365c6
+      internalID: 2130717381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_144
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 204
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1331ba137106da409869c35a43312fb
+      internalID: -1019376275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_145
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 203
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5623743bfddc4dacf331f45bd3aa7
+      internalID: 152046277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_146
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 190
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dfd0b6a64394b4fb5672bd009d4f02
+      internalID: 280903248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_147
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 190
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e519389afd680143b125b462e2fb224
+      internalID: 868767619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_148
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 190
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700f6835b87607549b47778e5822a668
+      internalID: -77631088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_149
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 198
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e6f8e70f51a284a98904d03db5fc5e
+      internalID: -1289945200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_150
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 202
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4574b5f345454d9c807b8ea2abb56
+      internalID: -557053646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_151
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 203
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3815dfe67d27f498ef3c857af36d96
+      internalID: 1191327346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_152
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 194
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d85cec0f6dd0941ba6fc8966fe29a7
+      internalID: 1363778700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_153
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 183
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944fce42f019bb498c2d3c396b09bef
+      internalID: -694610028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_154
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc73ecaa3c9b7647bb325a64254f69e
+      internalID: -1347022963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_155
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 183
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a5ec82b9a649f4ca0f00d26b7de678
+      internalID: 1745759497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_156
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 112
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba098ad45f05f4daead5ed544a8864
+      internalID: 1446481934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_157
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 20
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b98ac7e21aa244e9123dd50e9057db
+      internalID: 1940978222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_158
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 142
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b4e857db76df4bace0c37b29815d1
+      internalID: -1380047813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950d5508db94f444980ac5b5e416c784
+      internalID: 1560103251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_160
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 159
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c478b07c4598ca478f6d9dae5946f84
+      internalID: -645086890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_161
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 158
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dac457255e58af43a245bddac6dc5e6
+      internalID: -527194196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_162
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 161
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc17b252bb1d3e440beaa5377fdc4e8f
+      internalID: -1404663629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_163
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 161
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ce67e4e12e406409e37d0b497bfb60
+      internalID: 494338489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_164
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8828ae558a568264f9c3b767a42a6718
+      internalID: -2030579815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_165
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce973b86b85da894784c27f1a67948ea
+      internalID: 1130081014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_166
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc307a6fd998ec41bf46ec34ea2b2c1
+      internalID: 1731386694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_167
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9792fdc05ed191248b3bacbd432ed987
+      internalID: 1866502572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_168
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebab9109ece5dc4d9642356c9e05d96
+      internalID: -346892042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_169
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc62a3c689a6646a5593d01dd5774d
+      internalID: -1797300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_170
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d35daeeb071bce49bf7a2264e702a07
+      internalID: -485087413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_171
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d9df3b2fc585941b7901f040be5e30
+      internalID: 1257000611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_172
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 161
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b361298681db3046bcb6a24c36cfe36
+      internalID: 489908266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_173
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 161
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41786c11e1370714491543d18d1c4803
+      internalID: 1492963030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_174
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 150
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bda4d781dfc844aa26712be6de53e2
+      internalID: 521473632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_175
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 151
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0b8509c1fca834eb05ff40ab18cbf6
+      internalID: 1158492986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_176
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 149
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786ef5d8c136384429699723337caa45
+      internalID: -2063108282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 132
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5ff7a5966fb4245b6c01ae69b1f7d1
+      internalID: -1483208013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_178
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 120
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f72d98b9f4c69945a28738fff185dfa
+      internalID: -667286436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_179
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 130
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74622c79145a00a4f95321cabb7b8e3a
+      internalID: -2118917486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 132
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8a5059b23e295499ed8bfae9e5a023
+      internalID: 1590351939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_181
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 130
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74fe2f250df5e3498f38e41c13b351f
+      internalID: 903307718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_182
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 133
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3564e434d14df8942a0f9eea435c0202
+      internalID: -2064150476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_183
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 140
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449a62449f91fb644a8c81f2b636e6a9
+      internalID: -1208668606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_184
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 140
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e146e9c0898f940aac6c352e450f50
+      internalID: -911821075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_185
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f6074bd2e5de845a7d86a397e4c7e7
+      internalID: -1507131736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_186
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 96
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9638633a09a19ef46b1069cf7a3b4aa2
+      internalID: 735990124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_187
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 127
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123fa6f1a6e90a459a7e25743713f3b
+      internalID: -1020107922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_188
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 127
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a29739d1bc80c4eb8d23ea0f53f70f
+      internalID: 1558185027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_189
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 84
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55baeab4ce9e45240888cf13ffab448a
+      internalID: -963072710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_190
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 94
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d74b856b4c348b429424be8996efd11
+      internalID: 1486677610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_191
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 78
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981c559b3e5e6b04eab83e52e32864f5
+      internalID: -1976191154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_192
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 98
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4bc563738b31346bd9fa600eb59832
+      internalID: 1041865316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_193
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 94
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe97728adde11764c8bfb23a69775e3f
+      internalID: -749459852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_194
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 94
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a66e05b2ca341349923481b38f14147
+      internalID: -830713374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_195
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 94
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1a948020dc0c1458372fa083a2c726
+      internalID: -1679149149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_196
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a933db50f44e449a8267df477ab36a
+      internalID: -26530464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_197
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d51937bb86f8384fb8dedb5d9fd5313
+      internalID: 1670874958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_198
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 48
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d0c6ded35fa2144a424335ce960eab
+      internalID: -1881304597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_199
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a504f6a3a000247984760e357faad9
+      internalID: 1522805556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_200
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9996750f004599d468df8f3751482e9e
+      internalID: 1612034382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_201
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 67
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4826501313d2e85429dcb167a6fb70fb
+      internalID: 2027669597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_202
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 65
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1309b357d0806a84da1ba40a198eb581
+      internalID: 1220931048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_203
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 64
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2416364e931f674180eecd40a89c0ef
+      internalID: 1928701122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_204
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e8cc783ebf3840bf12bea386dc5a5
+      internalID: 1753566019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62117410ca15732458c9515f6b88b348
+      internalID: 1910155621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_206
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 50
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9eae251591234d8449a540a85bc90
+      internalID: -1963718402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_207
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 51
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403afa71c4979a49afe9b9265bea6bc
+      internalID: 449671426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_208
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 51
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52fc05f8f99b7c45a067ad32f745d81
+      internalID: 321537780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_209
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f01ecd408f5664f98c53f1678e179a
+      internalID: 656979312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_210
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 49
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cf6a18e99b74341880195359187df3
+      internalID: 309405614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_211
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 48
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2002072aa03cd144bba929a1f8536c69
+      internalID: 757377632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_212
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a0279113047b4c80fe0c77ad8aedf
+      internalID: -1415811253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_213
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d3194de1aa0c4994fa20c3b07139d
+      internalID: -216318429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_214
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4c669aa3a2a8428c70d4268c93e7b
+      internalID: -1560674844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_215
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 36
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae815cdc507b84b45a30307b4d1a4ce9
+      internalID: 282261714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_216
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 35
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a101fedc6f1674883e1d90240fc658
+      internalID: -1563390679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_217
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 37
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbad31f89e0d7746991c8a67f960376
+      internalID: -1589177851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_218
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 36
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb181a48f1f70f45849fd39d69a2ade
+      internalID: -356749863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_219
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dfac4d7a4cf9543941fac3948d3c04
+      internalID: 1084888118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_220
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 33
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f455a09b362d4ebf50f6f589052cb
+      internalID: -479997693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_221
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 31
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebc4562ccc339d4d94aaa20262921d9
+      internalID: -1707957851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_222
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866f2a02dc5c61141ac39376dd9022d7
+      internalID: 59870909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_223
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 5
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5699919ec19ea4585adb8a3c285fbd
+      internalID: -536906873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_224
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 26
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e7d3f5304196e408b0d7e865479398
+      internalID: 2076023546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_225
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f9659137e0cf479b1693343989418
+      internalID: -625304643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_226
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 21
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f9d52e1e5f404eb89dd7bb935dba7
+      internalID: -895359411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_227
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 21
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b3937479bbfad42aecc294e9658044
+      internalID: 469080816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_228
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 17
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9629284330829a54585cbb2201e77688
+      internalID: 914874639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_229
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 10
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f15f9c8cfdb34f4d99bed2b7d17a55a
+      internalID: -766137162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_230
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 25
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf12c7a7730315448fc9148b2ddb693
+      internalID: 2004543273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_231
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 16
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f973434c25035488bdb07b62b1220b
+      internalID: -262066713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_232
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd462f65fbb87d4b860cb6a2ab980aa
+      internalID: -1485074337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_233
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72e79f71028524b88934b42af37c76
+      internalID: 1804776638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_234
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b2203b6ba58e742af82ad513a07d36
+      internalID: -1369306946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_235
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adccc1342532d4746bd6e1519901a2cb
+      internalID: -83952921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_236
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 7
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3638aab8e18f5dd4db1f75dbb4450594
+      internalID: -1548062509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Edit_237
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b338f6cd5be55f4ab1d4316e5f9d985
+      internalID: 611605642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Final Edit_0: -276658021
+      Final Edit_1: -632965521
+      Final Edit_10: -231513564
+      Final Edit_100: 770721832
+      Final Edit_101: 1594749058
+      Final Edit_102: 1350999638
+      Final Edit_103: -1222880940
+      Final Edit_104: -1215057634
+      Final Edit_105: -1001345689
+      Final Edit_106: -1502788737
+      Final Edit_107: -184233497
+      Final Edit_108: 919418953
+      Final Edit_109: -931285095
+      Final Edit_11: -578422577
+      Final Edit_110: -1785858840
+      Final Edit_111: 402342752
+      Final Edit_112: -1997716551
+      Final Edit_113: 1780264456
+      Final Edit_114: 1501132635
+      Final Edit_115: 2138374482
+      Final Edit_116: -1834210226
+      Final Edit_117: -1769287428
+      Final Edit_118: -1276426414
+      Final Edit_119: -1170330728
+      Final Edit_12: -1510002293
+      Final Edit_120: 1279148158
+      Final Edit_121: -229380719
+      Final Edit_122: -1428577563
+      Final Edit_123: -1529672347
+      Final Edit_124: -1839979780
+      Final Edit_125: -641603575
+      Final Edit_126: 1572751978
+      Final Edit_127: 892556483
+      Final Edit_128: -872773258
+      Final Edit_129: 14337349
+      Final Edit_13: 457848989
+      Final Edit_130: -2000715996
+      Final Edit_131: -681454968
+      Final Edit_132: -348725259
+      Final Edit_133: -1175164970
+      Final Edit_134: 1676048943
+      Final Edit_135: 1142649482
+      Final Edit_136: 313911988
+      Final Edit_137: -1313566282
+      Final Edit_138: 1809321484
+      Final Edit_139: -1201049119
+      Final Edit_14: 1514429910
+      Final Edit_140: -1987941971
+      Final Edit_141: -674595062
+      Final Edit_142: 2073506456
+      Final Edit_143: 2130717381
+      Final Edit_144: -1019376275
+      Final Edit_145: 152046277
+      Final Edit_146: 280903248
+      Final Edit_147: 868767619
+      Final Edit_148: -77631088
+      Final Edit_149: -1289945200
+      Final Edit_15: 1530824563
+      Final Edit_150: -557053646
+      Final Edit_151: 1191327346
+      Final Edit_152: 1363778700
+      Final Edit_153: -694610028
+      Final Edit_154: -1347022963
+      Final Edit_155: 1745759497
+      Final Edit_156: 1446481934
+      Final Edit_157: 1940978222
+      Final Edit_158: -1380047813
+      Final Edit_159: 1560103251
+      Final Edit_16: -632893019
+      Final Edit_160: -645086890
+      Final Edit_161: -527194196
+      Final Edit_162: -1404663629
+      Final Edit_163: 494338489
+      Final Edit_164: -2030579815
+      Final Edit_165: 1130081014
+      Final Edit_166: 1731386694
+      Final Edit_167: 1866502572
+      Final Edit_168: -346892042
+      Final Edit_169: -1797300006
+      Final Edit_17: 1234428546
+      Final Edit_170: -485087413
+      Final Edit_171: 1257000611
+      Final Edit_172: 489908266
+      Final Edit_173: 1492963030
+      Final Edit_174: 521473632
+      Final Edit_175: 1158492986
+      Final Edit_176: -2063108282
+      Final Edit_177: -1483208013
+      Final Edit_178: -667286436
+      Final Edit_179: -2118917486
+      Final Edit_18: 541171741
+      Final Edit_180: 1590351939
+      Final Edit_181: 903307718
+      Final Edit_182: -2064150476
+      Final Edit_183: -1208668606
+      Final Edit_184: -911821075
+      Final Edit_185: -1507131736
+      Final Edit_186: 735990124
+      Final Edit_187: -1020107922
+      Final Edit_188: 1558185027
+      Final Edit_189: -963072710
+      Final Edit_19: -1058900
+      Final Edit_190: 1486677610
+      Final Edit_191: -1976191154
+      Final Edit_192: 1041865316
+      Final Edit_193: -749459852
+      Final Edit_194: -830713374
+      Final Edit_195: -1679149149
+      Final Edit_196: -26530464
+      Final Edit_197: 1670874958
+      Final Edit_198: -1881304597
+      Final Edit_199: 1522805556
+      Final Edit_2: 921688575
+      Final Edit_20: -1153936032
+      Final Edit_200: 1612034382
+      Final Edit_201: 2027669597
+      Final Edit_202: 1220931048
+      Final Edit_203: 1928701122
+      Final Edit_204: 1753566019
+      Final Edit_205: 1910155621
+      Final Edit_206: -1963718402
+      Final Edit_207: 449671426
+      Final Edit_208: 321537780
+      Final Edit_209: 656979312
+      Final Edit_21: 1504598390
+      Final Edit_210: 309405614
+      Final Edit_211: 757377632
+      Final Edit_212: -1415811253
+      Final Edit_213: -216318429
+      Final Edit_214: -1560674844
+      Final Edit_215: 282261714
+      Final Edit_216: -1563390679
+      Final Edit_217: -1589177851
+      Final Edit_218: -356749863
+      Final Edit_219: 1084888118
+      Final Edit_22: 2041230282
+      Final Edit_220: -479997693
+      Final Edit_221: -1707957851
+      Final Edit_222: 59870909
+      Final Edit_223: -536906873
+      Final Edit_224: 2076023546
+      Final Edit_225: -625304643
+      Final Edit_226: -895359411
+      Final Edit_227: 469080816
+      Final Edit_228: 914874639
+      Final Edit_229: -766137162
+      Final Edit_23: 1001242554
+      Final Edit_230: 2004543273
+      Final Edit_231: -262066713
+      Final Edit_232: -1485074337
+      Final Edit_233: 1804776638
+      Final Edit_234: -1369306946
+      Final Edit_235: -83952921
+      Final Edit_236: -1548062509
+      Final Edit_237: 611605642
+      Final Edit_24: -1089929783
+      Final Edit_25: 203173909
+      Final Edit_26: 790018888
+      Final Edit_27: 2021637421
+      Final Edit_28: 1430152930
+      Final Edit_29: 281636210
+      Final Edit_3: 697885086
+      Final Edit_30: -180286512
+      Final Edit_31: -1122703920
+      Final Edit_32: 1363165801
+      Final Edit_33: -592703591
+      Final Edit_34: -1271819533
+      Final Edit_35: 320821902
+      Final Edit_36: -955933491
+      Final Edit_37: -192948716
+      Final Edit_38: -1238449083
+      Final Edit_39: 752761341
+      Final Edit_4: 1077767048
+      Final Edit_40: -105612370
+      Final Edit_41: -481304038
+      Final Edit_42: 187449375
+      Final Edit_43: -910427957
+      Final Edit_44: -1259721283
+      Final Edit_45: 673659070
+      Final Edit_46: -1888659717
+      Final Edit_47: -1060942733
+      Final Edit_48: -382902097
+      Final Edit_49: 759020787
+      Final Edit_5: -350687591
+      Final Edit_50: 1191971878
+      Final Edit_51: -1822382607
+      Final Edit_52: 314438463
+      Final Edit_53: -151908655
+      Final Edit_54: -1054175651
+      Final Edit_55: -182630525
+      Final Edit_56: -1602110382
+      Final Edit_57: -302752829
+      Final Edit_58: 226248374
+      Final Edit_59: 1567968580
+      Final Edit_6: -1300085169
+      Final Edit_60: -1234514104
+      Final Edit_61: -1322897021
+      Final Edit_62: -261930371
+      Final Edit_63: -1382663992
+      Final Edit_64: 889304657
+      Final Edit_65: 512839806
+      Final Edit_66: -1146881657
+      Final Edit_67: -161684584
+      Final Edit_68: -1139543641
+      Final Edit_69: -965076472
+      Final Edit_7: -550166298
+      Final Edit_70: -1958427178
+      Final Edit_71: 779086261
+      Final Edit_72: -1123473586
+      Final Edit_73: 1666920261
+      Final Edit_74: 680091652
+      Final Edit_75: -1085985549
+      Final Edit_76: 1753983417
+      Final Edit_77: 456733844
+      Final Edit_78: 1053312146
+      Final Edit_79: 87589883
+      Final Edit_8: 2098677588
+      Final Edit_80: 265131543
+      Final Edit_81: -1859182150
+      Final Edit_82: 1455909237
+      Final Edit_83: 1895973818
+      Final Edit_84: -2028921996
+      Final Edit_85: -815896685
+      Final Edit_86: -1787196984
+      Final Edit_87: 726286219
+      Final Edit_88: 1278450884
+      Final Edit_89: 1383163184
+      Final Edit_9: 1149540013
+      Final Edit_90: 1961146479
+      Final Edit_91: -1324368655
+      Final Edit_92: -832849073
+      Final Edit_93: -1554488209
+      Final Edit_94: 742661209
+      Final Edit_95: 1397948850
+      Final Edit_96: 1771061267
+      Final Edit_97: 38410806
+      Final Edit_98: 2130372857
+      Final Edit_99: 283131161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
