@@ -7,7 +7,7 @@ public class BossTalkingScript : MonoBehaviour
     private GameObject player;
     public Dialogue lilithDialogue;
     public Dialogue NyxDialogue;
-    private PlayerMovement playerMovement;
+    public PlayerMovement playerMovement;
     public playerCombat Combat;
     public LilithAttack attack;
     public UIHealthPanel uipanel;
@@ -17,9 +17,9 @@ public class BossTalkingScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerMovement = player.GetComponent<PlayerMovement>();
-        playerMovement.enabled = false;
+        // player = GameObject.FindGameObjectWithTag("Player");
+        // playerMovement = player.GetComponent<PlayerMovement>();
+        // playerMovement.enabled = false;
         Combat.enabled = false;
         // lilithDialogue.StartDialogue();
         // lilithDialogue.inprogress = true;
@@ -42,7 +42,7 @@ public class BossTalkingScript : MonoBehaviour
         }
         if(NyxDialogue.inprogress == false && nyxDone == true && dialogueDone == false)
         {
-            playerMovement.enabled = true;
+            // playerMovement.enabled = true;
             Combat.enabled = true;
             attack.talking = false;
             dialogueDone = true;

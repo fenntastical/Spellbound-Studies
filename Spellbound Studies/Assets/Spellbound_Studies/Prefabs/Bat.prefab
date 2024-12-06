@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 3530974252867867497}
   m_Layer: 8
   m_Name: Bat
-  m_TagString: Untagged
+  m_TagString: ignore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

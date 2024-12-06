@@ -10,13 +10,19 @@ public class PatrollerMovement : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     public float speed;
+    private PlayerHealth playerHealth;
+    private GameObject player;
+    public int damage = 1;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         currentPoint = pointB.transform;
-        // anim.SetBool("isRunning", true);
+        anim.SetBool("isWalkingRight", true);
+        player = GameObject.FindWithTag("Player");
+        if(player != null)
+            playerHealth = player.GetComponent<PlayerHealth>();  
     }
 
     // Update is called once per frame
@@ -32,15 +38,20 @@ public class PatrollerMovement : MonoBehaviour
             rb.velocity = new Vector2(-speed, 0);
         }
 
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) <1f && currentPoint == pointB.transform)
         {
-            Flip();
+            anim.SetBool("isWalkingLeft", true);
+            anim.SetBool("isWalkingRight", false);
             currentPoint = pointA.transform;
+            // speed = -speed;
+            
         }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) <1f && currentPoint == pointA.transform)
         {
-            Flip();
+            anim.SetBool("isWalkingRight", true);
+            anim.SetBool("isWalkingLeft", false);
             currentPoint = pointB.transform;
+            // speed = -speed;
         }
     }
 
@@ -49,6 +60,24 @@ public class PatrollerMovement : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.y *= -1;
         transform.localScale = localScale;
+    }
+
+    IEnumerator attackWaiter()
+    {
+
+        yield return new WaitForSeconds(2);
+
+    }
+
+    void OnCollisionEnter2D(Collision2D collider)
+    {
+        if(collider.gameObject.tag == "Player"){
+            playerHealth.TakeDamage(damage); 
+            attackWaiter();
+        }
+        if(collider.gameObject.tag == "ignore"){
+            Physics2D.IgnoreCollision(collider.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
     
 }

@@ -16,7 +16,7 @@ EditorBuildSettings:
     guid: c69d859e8c6ced446b0e7b01295d0f40
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Scene/OccultClubBoss.unity
-    guid: d36742370a24dbd47a9e05132ef7c845
+    guid: 53a0ef3bbf34d884b9ce542c3d1008f3
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Cutscene/LilithDefeatCutscene.unity
     guid: e9f0b340d2542e743a184e8f08caa3ea

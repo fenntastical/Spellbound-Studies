@@ -21,6 +21,8 @@ public class Room : MonoBehaviour
     public PanelMover unlockUI;
     public List<GameObject> enemies;
     private bool uiDisplay = false;
+    public List<GameObject> patrollers;
+
     // public List<Interactable> interactables;
 
     void Start()
@@ -31,6 +33,10 @@ public class Room : MonoBehaviour
             enemySpawnPositions.Add(transform.position);
         }
         enemySpawnPositions.Remove(transform.position);
+        foreach (GameObject patroller in patrollers)
+        {
+            patroller.SetActive(false);
+        }
     }
 
     public void EnterRoom(Transform player, int minEnemies, int maxEnemies, int numWaves)
@@ -46,6 +52,25 @@ public class Room : MonoBehaviour
         this.numWaves = numWaves;
         currentWave = 0;
         SetDoors(true);
+        int randomPatroller = Random.Range(0, 3);
+        switch(randomPatroller)
+        {
+            case 0:
+                patrollers[0].SetActive(true);
+                patrollers[1].SetActive(false);
+                patrollers[2].SetActive(false);
+            break;
+            case 1:
+                patrollers[0].SetActive(false);
+                patrollers[1].SetActive(true);
+                patrollers[2].SetActive(false);
+            break;
+            case 2:
+                patrollers[0].SetActive(false);
+                patrollers[1].SetActive(false);
+                patrollers[2].SetActive(true);
+            break;
+        }
     }
 
     public void ExitRoom(Transform player, Transform camera, int minEnemies, int maxEnemies)
@@ -107,6 +132,10 @@ public class Room : MonoBehaviour
             {
                 SetDoors(false);
                 uiDisplay = true;
+                foreach (GameObject patroller in patrollers)
+                {
+                    patroller.SetActive(false);
+                }
             }
         }
     }
