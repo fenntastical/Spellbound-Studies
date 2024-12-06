@@ -116469,8 +116469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 281, y: 82}
-  m_SizeDelta: {x: 25, y: 25}
+  m_AnchoredPosition: {x: 291.52344, y: 92.52319}
+  m_SizeDelta: {x: 46.0464, y: 46.0464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &4564807197215537846
 RectTransform:
@@ -117357,7 +117357,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2874729223140080787}
         m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
-        m_MethodName: PanelHide
+        m_MethodName: StartTime
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -117369,7 +117369,7 @@ MonoBehaviour:
         m_CallState: 1
       - m_Target: {fileID: 2874729223140080787}
         m_TargetAssemblyTypeName: PanelMover, Assembly-CSharp
-        m_MethodName: StartTime
+        m_MethodName: PanelHide
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

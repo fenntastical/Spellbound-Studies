@@ -814,6 +814,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuitPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 7723359950062327575, guid: dd3ca578cfa740745aa58e33dc998736, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 93.2236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723359950062327575, guid: dd3ca578cfa740745aa58e33dc998736, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 93.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723359950062327575, guid: dd3ca578cfa740745aa58e33dc998736, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 727.6118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723359950062327575, guid: dd3ca578cfa740745aa58e33dc998736, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 163.61
+      objectReference: {fileID: 0}
     - target: {fileID: 9025071713873487307, guid: dd3ca578cfa740745aa58e33dc998736, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -11691,6 +11707,22 @@ PrefabInstance:
     - target: {fileID: 3258299769546183778, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ToggleSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459805476165266190, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 41.6509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459805476165266190, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 41.6509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459805476165266190, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 289.3252
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459805476165266190, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 90.32544
       objectReference: {fileID: 0}
     - target: {fileID: 5030069316263155655, guid: ac6da6c3994d03442872d3cd07e0e043, type: 3}
       propertyPath: m_AnchorMax.x
