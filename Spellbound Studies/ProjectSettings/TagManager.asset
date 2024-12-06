@@ -8,6 +8,7 @@ TagManager:
   - Pot
   - Undefined
   - Bullet
+  - Lilith
   layers:
   - Default
   - TransparentFX
@@ -62,4 +63,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4184321285
+    locked: 0
+  - name: Enemies
+    uniqueID: 1110818039
     locked: 0
