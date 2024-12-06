@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,7 +6,7 @@ namespace KatScripts
 {
     public class PlayerMovement : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 5f;
+        [SerializeField] private float moveSpeed = 5f; // Base movement speed
         public Rigidbody2D rb;
         private Vector2 moveInput;
         public Animator animator;
@@ -47,6 +46,18 @@ namespace KatScripts
                 animator.SetFloat("Last_Move_X", moveInput.x);
                 animator.SetFloat("Last_Move_Y", moveInput.y);
             }
+        }
+
+        // Coroutine to increase speed temporarily
+        public IEnumerator IncreaseSpeed(float speedBoost, float duration)
+        {
+            moveSpeed += speedBoost; // Increase the speed
+            Debug.Log($"Speed increased to {moveSpeed} for {duration} seconds!");
+
+            yield return new WaitForSeconds(duration); // Wait for the duration
+
+            moveSpeed -= speedBoost; // Revert speed
+            Debug.Log($"Speed returned to {moveSpeed}");
         }
     }
 }

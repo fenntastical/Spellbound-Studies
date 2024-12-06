@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemies
   - Pot
+  - Undefined
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Destructables
   - 
   - 
   - 
@@ -57,4 +59,7 @@ TagManager:
     locked: 0
   - name: decorations
     uniqueID: 2931749169
+    locked: 0
+  - name: Player
+    uniqueID: 4184321285
     locked: 0
