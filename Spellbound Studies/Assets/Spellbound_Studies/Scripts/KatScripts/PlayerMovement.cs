@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 moveInput;
     public Animator animator;
+    public Animator animator2;
     public Transform Aim;
 
     private void Start()
@@ -30,12 +31,17 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetFloat("Last_Move_X", moveInput.x);
             animator.SetFloat("Last_Move_Y", moveInput.y);
+                        animator2.SetBool("isWalking", false);
+            animator2.SetFloat("Last_Move_X", moveInput.x);
+            animator2.SetFloat("Last_Move_Y", moveInput.y);
             Vector3 vector3 = Vector3.left * moveInput.x + Vector3.down * moveInput.y;
             Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
         }
         moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("Horizontal", moveInput.x);
         animator.SetFloat("Vertical", moveInput.y);
+                animator2.SetFloat("Horizontal", moveInput.x);
+        animator2.SetFloat("Vertical", moveInput.y);
 
         if (moveInput.x != 0 || moveInput.y != 0)
         {
@@ -43,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
             Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
             animator.SetFloat("Last_Move_X", moveInput.x);
             animator.SetFloat("Last_Move_Y", moveInput.y);
+                        animator2.SetFloat("Last_Move_X", moveInput.x);
+            animator2.SetFloat("Last_Move_Y", moveInput.y);
         }
     }
 
