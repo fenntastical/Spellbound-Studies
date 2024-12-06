@@ -10,12 +10,15 @@ namespace KatScripts
         public Rigidbody2D rb;
         private Vector2 moveInput;
         public Animator animator;
+        public Animator swordAnim;
         public Transform Aim;
 
         private void Start()
         {
             rb = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+            swordAnim = GetComponent<Animator>();
+
         }
 
         // Update is called once per frame
