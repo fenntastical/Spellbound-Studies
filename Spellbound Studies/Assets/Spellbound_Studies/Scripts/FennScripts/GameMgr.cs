@@ -22,5 +22,6 @@ public class GameMgr : MonoBehaviour
     {
         gameOverUI.isVisible = true;
         HUD.isVisible = false;
+        Time.timeScale = 0;
     }
 }

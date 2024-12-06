@@ -17,6 +17,7 @@ public class QuitMgr : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             quitScreen.isVisible = true;
+            Time.timeScale = 0;
         }
     }
 }

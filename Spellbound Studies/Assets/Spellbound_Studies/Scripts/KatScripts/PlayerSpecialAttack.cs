@@ -6,12 +6,14 @@ public class PlayerSpecialAttack : MonoBehaviour
 {
     public GameObject PlayerBullet;
     public float BulletSpeed = 30f;
+    public EnergyPanel energyPanel;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Mouse1) && energyPanel.charges == 5)
         {
+            energyPanel.charges = 0;
             Shoot();
             AudioMgr.Instance.PlaySFX("Special Attack");
 

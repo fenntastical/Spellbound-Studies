@@ -8,12 +8,15 @@ public class PatrollingEnemy : MonoBehaviour
     [SerializeField] private float detectionRadius = 3f; 
     [SerializeField] private LayerMask playerLayer; 
 
+    private Rigidbody2D rb;
+
     private Transform currentTarget; 
     private Animator animator; 
     private bool isAttacking = false; 
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         currentTarget = waypoint1; 
         animator = GetComponent<Animator>(); 
     }

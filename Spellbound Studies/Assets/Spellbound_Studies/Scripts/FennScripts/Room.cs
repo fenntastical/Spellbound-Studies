@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem.Interactions;
 
 public class Room : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class Room : MonoBehaviour
     public List<Door> doors;
     public PanelMover unlockUI;
     public List<GameObject> enemies;
+    private bool uiDisplay = false;
     // public List<Interactable> interactables;
 
     void Start()
@@ -34,6 +36,7 @@ public class Room : MonoBehaviour
     public void EnterRoom(Transform player, int minEnemies, int maxEnemies, int numWaves)
     {
         unlockUI.isVisible = false;
+        uiDisplay = false;
         inRoom = true;
         // player.gameObject.GetComponent<NavMeshAgent>().enabled = false;
         player.position = playerSpawnPoint.position;
@@ -73,7 +76,6 @@ public class Room : MonoBehaviour
             if(locked == true){
                 SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
                 doorRender.enabled = false;
-                unlockUI.isVisible = false;
             }
             if(locked == false){
                 SpriteRenderer doorRender = door.GetComponent<SpriteRenderer>();
@@ -101,9 +103,10 @@ public class Room : MonoBehaviour
                     enemies.RemoveAt(i);
             }
 
-            if (currentWave == numWaves && enemies.Count == 0)
+            if (currentWave == numWaves && enemies.Count == 0 && uiDisplay == false)
             {
                 SetDoors(false);
+                uiDisplay = true;
             }
         }
     }
