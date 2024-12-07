@@ -6,6 +6,8 @@ public class swordParent : MonoBehaviour
 {
     public SpriteRenderer swordRenderer;
     public Animator swordAnim;
+    public SpriteRenderer swordEffectRenderer;
+    public Animator swordEffectAnim;
     private float timer;
     void Update()
     {
@@ -25,5 +27,6 @@ public class swordParent : MonoBehaviour
     public void Attack()
     {
         swordAnim.SetTrigger("SwordAttack");
+        swordEffectAnim.SetTrigger("SwordTrigger");
     }
 }

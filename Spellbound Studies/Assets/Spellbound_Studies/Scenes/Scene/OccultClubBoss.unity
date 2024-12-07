@@ -2367,6 +2367,8 @@ MonoBehaviour:
   moveSpeed: 6
   rb: {fileID: 366609933}
   animator: {fileID: 366609931}
+  swordAnimator: {fileID: 0}
+  swordEffectAnimator: {fileID: 0}
   Aim: {fileID: 1514079823}
 --- !u!1 &429726422
 GameObject:
@@ -7968,6 +7970,8 @@ MonoBehaviour:
   moveSpeed: 6
   rb: {fileID: 2097391898}
   animator: {fileID: 2097391896}
+  swordAnimator: {fileID: 0}
+  swordEffectAnimator: {fileID: 0}
   Aim: {fileID: 1737366918}
 --- !u!50 &2097391898
 Rigidbody2D:
