@@ -41,8 +41,10 @@ public class GameMgrLvl : MonoBehaviour
     {
         if(currentRoom == numRooms)
         {
-            SceneManager.LoadScene(2);
+            if(SceneManager.GetActiveScene().name == "occultlevels")
+                SceneManager.LoadScene(2);
             // endReached = true;
+            
         }
         if (loadNext == true && endReached == false)
         {

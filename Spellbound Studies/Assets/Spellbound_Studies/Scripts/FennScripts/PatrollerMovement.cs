@@ -13,6 +13,9 @@ public class PatrollerMovement : MonoBehaviour
     public PlayerHealth playerHealth;
     private GameObject player;
     public int damage = 1;
+
+    public float health = 60f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,7 @@ public class PatrollerMovement : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         if(player != null)
             playerHealth = player.GetComponent<PlayerHealth>();
+        health = 60f;
             
     }
 
@@ -75,6 +79,21 @@ public class PatrollerMovement : MonoBehaviour
         if(collider.gameObject.tag == "Player"){
             playerHealth.TakeDamage(damage); 
             attackWaiter();
+        }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        AudioMgr.Instance.PlaySFX("Enemy Damage");
+        if (health > 0)
+        {
+
+        }
+            //i think knockback would be called here 
+        if (health <= 0)
+        {         
+            Destroy(gameObject);
         }
     }
     

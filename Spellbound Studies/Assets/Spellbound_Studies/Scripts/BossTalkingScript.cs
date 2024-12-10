@@ -12,6 +12,7 @@ public class BossTalkingScript : MonoBehaviour
     public playerCombat Combat;
     public LilithAttack attack;
     public UIHealthPanel uipanel;
+    public GameObject swordParent;
     bool dialogueDone = false;
     bool nyxDone = false;
     bool lilithDone = false;
@@ -22,6 +23,7 @@ public class BossTalkingScript : MonoBehaviour
         // playerMovement = player.GetComponent<PlayerMovement>();
         playerMovement.enabled = false;
         Combat.enabled = false;
+        swordParent.SetActive(false);
         // lilithDialogue.StartDialogue();
         // lilithDialogue.inprogress = true;
     }
@@ -45,6 +47,7 @@ public class BossTalkingScript : MonoBehaviour
         {
             playerMovement.enabled = true;
             Combat.enabled = true;
+            swordParent.SetActive(true);
             attack.talking = false;
             dialogueDone = true;
             uipanel.updatePanel();
