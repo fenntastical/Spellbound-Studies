@@ -4,6 +4,8 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem.Interactions;
+using UnityEngine.SceneManagement;
+
 
 public class Room : MonoBehaviour
 {
@@ -54,24 +56,27 @@ public class Room : MonoBehaviour
         this.numWaves = numWaves;
         currentWave = 0;
         SetDoors(true);
-        int randomPatroller = Random.Range(0, 3);
-        switch(randomPatroller)
+        if(SceneManager.GetActiveScene().name == "occultlevels")
         {
-            case 0:
-                patrollers[0].SetActive(true);
-                patrollers[1].SetActive(false);
-                patrollers[2].SetActive(false);
-            break;
-            case 1:
-                patrollers[0].SetActive(false);
-                patrollers[1].SetActive(true);
-                patrollers[2].SetActive(false);
-            break;
-            case 2:
-                patrollers[0].SetActive(false);
-                patrollers[1].SetActive(false);
-                patrollers[2].SetActive(true);
-            break;
+            int randomPatroller = Random.Range(0, 3);
+            switch(randomPatroller)
+            {
+                case 0:
+                    patrollers[0].SetActive(true);
+                    patrollers[1].SetActive(false);
+                    patrollers[2].SetActive(false);
+                break;
+                case 1:
+                    patrollers[0].SetActive(false);
+                    patrollers[1].SetActive(true);
+                    patrollers[2].SetActive(false);
+                break;
+                case 2:
+                    patrollers[0].SetActive(false);
+                    patrollers[1].SetActive(false);
+                    patrollers[2].SetActive(true);
+                break;
+            }
         }
 
         int isPowerUp = Random.Range(0, 2);
