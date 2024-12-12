@@ -9,7 +9,10 @@ public class PlayerHealth : MonoBehaviour
     public GameMgr gameMgr;
 
     [Header("Damage Effect")]
-    public float damageFlashDuration = 0.5f; // Adjustable in the Inspector
+    public float damageFlashDuration = 0.5f; // Duration of color flash
+    public Color primaryDamageColor = Color.red; // Main damage color
+    public Color secondaryDamageColor = new Color(1f, 0.5f, 0.5f); // Lighter red
+    public float colorAlternateDuration = 0.1f; // How quickly colors alternate
 
     private bool isDead = false;
     private SpriteRenderer spriteRenderer;
@@ -19,11 +22,6 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth;
         // Get the SpriteRenderer component
         spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    void Start()
-    {
-        // Additional initialization if needed
     }
 
     public void TakeDamage(int amount)
@@ -37,10 +35,10 @@ public class PlayerHealth : MonoBehaviour
             Destroy(healthPanel.transform.GetChild(i).gameObject);
         }
 
-        // Start the color change coroutine
+        // Start the color alternation coroutine
         if (spriteRenderer != null)
         {
-            StartCoroutine(FlashRedTemporarily());
+            StartCoroutine(AlternateColorTemporarily());
         }
 
         if (health <= 0 && !isDead)
@@ -51,16 +49,27 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator FlashRedTemporarily()
+    private IEnumerator AlternateColorTemporarily()
     {
         // Store the original color
         Color originalColor = spriteRenderer.color;
 
-        // Change to red
-        spriteRenderer.color = Color.red;
+        // Track total time
+        float elapsedTime = 0f;
+        bool isAlternatingColors = true;
 
-        // Wait for the inspector-defined duration
-        yield return new WaitForSeconds(damageFlashDuration);
+        while (elapsedTime < damageFlashDuration)
+        {
+            // Alternate between primary and secondary colors
+            spriteRenderer.color = isAlternatingColors ? primaryDamageColor : secondaryDamageColor;
+            
+            // Wait for a short duration
+            yield return new WaitForSeconds(colorAlternateDuration);
+
+            // Toggle between colors
+            isAlternatingColors = !isAlternatingColors;
+            elapsedTime += colorAlternateDuration;
+        }
 
         // Return to original color
         spriteRenderer.color = originalColor;

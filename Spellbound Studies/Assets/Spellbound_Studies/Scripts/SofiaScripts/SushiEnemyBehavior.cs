@@ -7,7 +7,12 @@ public class SushiEnemy : MonoBehaviour
     public int damage = 1; // Amount of damage dealt to the player
     public float maxHealth = 3f; // Maximum health of the sushi enemy
     [HideInInspector] public float health; // Current health of the enemy
+
+    [Header("Player Color Effect")]
     public float greenDuration = 30.0f; // Duration the player stays green
+    public Color primaryGreenColor = Color.green; // Main green color
+    public Color secondaryGreenColor = new Color(0.5f, 1f, 0.5f); // Lighter green
+    public float colorAlternateDuration = 0.1f; // How quickly colors alternate
 
     private GameObject player; // Reference to the player GameObject
     private PlayerHealth playerHealth; // Reference to the player's health component
@@ -90,16 +95,27 @@ public class SushiEnemy : MonoBehaviour
 
     private IEnumerator ChangePlayerColor(SpriteRenderer playerSprite)
     {
-        Color originalColor = playerSprite.color; // Save the original color
-        playerSprite.color = Color.green; // Change to green
+        // Save the original color
+        Color originalColor = playerSprite.color;
 
-        // Wait for the green effect duration
-        yield return new WaitForSeconds(greenDuration);
+        // Track total time
+        float elapsedTime = 0f;
+        bool isAlternatingColors = true;
+
+        while (elapsedTime < greenDuration)
+        {
+            // Alternate between primary and secondary green colors
+            playerSprite.color = isAlternatingColors ? primaryGreenColor : secondaryGreenColor;
+            
+            // Wait for a short duration
+            yield return new WaitForSeconds(colorAlternateDuration);
+
+            // Toggle between colors
+            isAlternatingColors = !isAlternatingColors;
+            elapsedTime += colorAlternateDuration;
+        }
 
         // Reset the player's color to the original
-        if (playerSprite != null)
-        {
-            playerSprite.color = originalColor;
-        }
+        playerSprite.color = originalColor;
     }
 }
