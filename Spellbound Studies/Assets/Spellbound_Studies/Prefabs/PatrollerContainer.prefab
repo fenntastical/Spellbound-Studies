@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8484031552913204099}
   - component: {fileID: 7831117482012419200}
   - component: {fileID: 4772692061889590555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: patroller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6380240573564089688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: waypoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6725889217931119117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PatrollerContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1153710631489176153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: waypoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,9 +324,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7591712135624816818}
     m_Modifications:
+    - target: {fileID: 639476787134406602, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 769332619263625280, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 861341163940392713, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_Name
       value: EnemyHPCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 861341163940392713, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 861341163940392713, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_IsActive
@@ -339,6 +351,10 @@ PrefabInstance:
     - target: {fileID: 894051924957476361, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027647957946574727, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1052335025149845173, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: health
@@ -364,6 +380,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2950743141700736818, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3007797486015949566, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.23666666
@@ -379,6 +399,10 @@ PrefabInstance:
     - target: {fileID: 5055739137528746296, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_MaxValue
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128883970764798558, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5139363150558200478, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -476,6 +500,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8349310508787858069, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8369757474463371332, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.26166666
@@ -483,6 +511,10 @@ PrefabInstance:
     - target: {fileID: 8369757474463371332, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010474360649417646, guid: cc22dc901b1db584e9c899e60658484c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1052335025149845173, guid: cc22dc901b1db584e9c899e60658484c, type: 3}

@@ -5411,7 +5411,7 @@ MonoBehaviour:
   healthPanel: {fileID: 357025855}
   gameMgr: {fileID: 465908269}
   damageFlashDuration: 0.5
-  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  primaryDamageColor: {r: 1, g: 1, b: 1, a: 1}
   secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
   colorAlternateDuration: 0.1
 --- !u!95 &1726862435
@@ -6610,6 +6610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc55073252803db46afffdc8693278a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageFlashDuration: 0.5
+  primaryHealColor: {r: 1, g: 1, b: 1, a: 1}
+  secondaryHealeColor: {r: 0.930608, g: 1, b: 0.5019608, a: 1}
+  colorAlternateDuration: 0.5
   spawnerList:
   - {fileID: 2067886990}
   - {fileID: 732325207}

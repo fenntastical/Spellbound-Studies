@@ -20104,7 +20104,7 @@ MonoBehaviour:
   healthPanel: {fileID: 10968925}
   gameMgr: {fileID: 2066864075}
   damageFlashDuration: 0.5
-  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  primaryDamageColor: {r: 1, g: 1, b: 1, a: 1}
   secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
   colorAlternateDuration: 0.1
 --- !u!95 &293175094

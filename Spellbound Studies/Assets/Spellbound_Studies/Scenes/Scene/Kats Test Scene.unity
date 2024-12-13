@@ -1923,6 +1923,10 @@ PrefabInstance:
       value: SushiEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 9198519936768566961, guid: bff589093794d4607a3fa16f1f097839, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198519936768566961, guid: bff589093794d4607a3fa16f1f097839, type: 3}
       propertyPath: m_TagString
       value: Enemies
       objectReference: {fileID: 0}
@@ -4963,11 +4967,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 124607641710669953, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.26166666
       objectReference: {fileID: 0}
     - target: {fileID: 124607641710669953, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 738844791970614915, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5015,15 +5019,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6638371863513975355, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.23666666
       objectReference: {fileID: 0}
     - target: {fileID: 6638371863513975355, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7137,6 +7141,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1777048128789756173, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777048128789756173, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_TagString
       value: ignore
       objectReference: {fileID: 0}
@@ -7206,11 +7214,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2801447737236155332, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2801447737236155332, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2859310222537479688, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_Layer
@@ -7398,11 +7406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8897476977029288318, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.26166666
       objectReference: {fileID: 0}
     - target: {fileID: 8897476977029288318, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8972260712206252975, guid: 5a0f1759431e1f846a180b0f72b488b1, type: 3}
       propertyPath: m_Layer
@@ -9574,6 +9582,63 @@ PolygonCollider2D:
       - {x: 0.625, y: 0}
       - {x: 0.625, y: 1}
   m_UseDelaunayMesh: 0
+--- !u!1001 &1048509159501163949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019142002
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.031544458
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 974754634912866357, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7913863725168248806, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
+      propertyPath: m_Name
+      value: AttackUp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 362a702d23cafec4f934bf82156f9aa8, type: 3}
 --- !u!70 &1544184086199737856
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9862,3 +9927,4 @@ SceneRoots:
   - {fileID: 915867029}
   - {fileID: 1345256146}
   - {fileID: 361924054}
+  - {fileID: 1048509159501163949}

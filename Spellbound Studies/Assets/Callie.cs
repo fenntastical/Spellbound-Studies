@@ -7,7 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class Callie : MonoBehaviour
 {
-   enum AttackPattern { Nothing, Right, Left, Down, Up}
+
+    [Header("Damage Effect")]
+    public float damageFlashDuration = 0.5f; // Duration of color flash
+    public Color primaryHealColor = Color.yellow; // Main damage color
+    public Color secondaryHealeColor = new Color(1f, 0.5f, 0.5f); // Lighter red
+    public float colorAlternateDuration = 0.1f; // How quickly colors alternate
+
+    private bool isDead = false;
+    private SpriteRenderer spriteRenderer;
+    enum AttackPattern { Nothing, Right, Left, Down, Up}
 
     public GameObject[] spawnerList;
     public GameObject[] knifeList;
@@ -101,6 +110,10 @@ public class Callie : MonoBehaviour
     {
         if (callieAlive == true)
         {
+            if (spriteRenderer != null)
+            {
+                StartCoroutine(AlternateColorTemporarily());
+            }
             healthcomp.health += 200;
             animator.SetTrigger("Heal");
             yield return new WaitForSeconds(20);
@@ -242,5 +255,31 @@ public class Callie : MonoBehaviour
     {
         foreach (GameObject spawner in spawnerList)
             spawner.SetActive(false);
+    }
+
+    private IEnumerator AlternateColorTemporarily()
+    {
+        // Store the original color
+        Color originalColor = spriteRenderer.color;
+
+        // Track total time
+        float elapsedTime = 0f;
+        bool isAlternatingColors = true;
+
+        while (elapsedTime < damageFlashDuration)
+        {
+            // Alternate between primary and secondary colors
+            spriteRenderer.color = isAlternatingColors ? primaryHealColor : secondaryHealeColor;
+
+            // Wait for a short duration
+            yield return new WaitForSeconds(colorAlternateDuration);
+
+            // Toggle between colors
+            isAlternatingColors = !isAlternatingColors;
+            elapsedTime += colorAlternateDuration;
+        }
+
+        // Return to original color
+        spriteRenderer.color = originalColor;
     }
 }

@@ -48,4 +48,15 @@ public class playerCombat : MonoBehaviour
             return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
+
+    public IEnumerator IncreaseAttack(float attackBoost, float duration)
+    {
+        attackDamage += attackBoost; // Increase the attack
+        Debug.Log($"Speed increased to {attackDamage} for {duration} seconds!");
+
+        yield return new WaitForSeconds(duration); // Wait for the duration
+
+        attackDamage -= attackBoost; // Revert speed
+        Debug.Log($"Speed returned to {attackDamage}");
+    }
 }
