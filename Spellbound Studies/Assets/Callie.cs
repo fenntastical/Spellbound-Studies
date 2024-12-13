@@ -57,7 +57,11 @@ public class Callie : MonoBehaviour
 
     void Update()
     {
-        if (talking == false & continueAttack == false)
+        Enemy healthscript = gameObject.GetComponent<Enemy>();
+        Debug.Log(healthscript.health);
+        //I will add this back when i add dialogue
+        // if (talking == false & continueAttack == false)
+        if (continueAttack == false)
         {
             StartCoroutine(attackWaiter());
             continueAttack = true;
@@ -84,9 +88,9 @@ public class Callie : MonoBehaviour
             // yield return new WaitForSeconds(2);
             RandomizeAttack();
             //Wait for 5 seconds    
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(4);
             updateSpawnersNothing();
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3);
         }
     }
 
@@ -104,7 +108,7 @@ public class Callie : MonoBehaviour
     {
         animator.SetTrigger("Attack");
         int attackChosen;
-        attackChosen = Random.Range(1, 4);
+        attackChosen = Random.Range(1, 5);
         // print(attackChosen);
         switch (attackChosen)
         {
@@ -115,29 +119,33 @@ public class Callie : MonoBehaviour
                 updateSpawnersLeft();
                 break;
             case 3:
-                updateSpawnersDown();
+                updateSpawnersUp();
                 break;
             case 4:
-                updateSpawnersUp();
+                updateSpawnersDown();
                 break;
         }
     }
 
     public void updateSpawnersRight()
     {
+        Debug.Log("1");
         int counter = 0;
-        float[] positions = {  2, 6, 8, 10 };
-        foreach (GameObject spawner in knifeList)
+        float[] positions = { -6, 0, 6};
+        foreach (GameObject spawner in spawnerList)
         {
-            if (counter <= 3)
+            if (counter <= 2)
             {
                 spawner.SetActive(true);
                 BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
-                bulletSpawn.firingRate = 0.2f;
-                bulletSpawn.bullet = knifeList[0];
+                bulletSpawn.firingRate = 1f;
+                // bulletSpawn.bullet = knifeList[1];
+                // Bullet foundBullet = bulletSpawn.bullet.GetComponent<Bullet>();
+                // foundBullet.transform.rotation = Quaternion.Euler(0, 0, 90);
+                // bulletSpawn.bullet = knifeList[0];
                 spawner.transform.position = new Vector3 (12.5f,positions[counter],0);
-                spawner.transform.rotation = Quaternion.Euler(0, 0, 90);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 180);
             }
             else
                 spawner.SetActive(false);
@@ -148,19 +156,23 @@ public class Callie : MonoBehaviour
 
     public void updateSpawnersLeft()
     {
+        Debug.Log("2");
         int counter = 0;
-        float[] positions = { 2, 6, 8, 10 };
-        foreach (GameObject spawner in knifeList)
+        float[] positions = {-6, 0, 6};
+        foreach (GameObject spawner in spawnerList)
         {
-            if (counter <= 3)
+            if (counter <= 2)
             {
                 spawner.SetActive(true);
                 BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
-                bulletSpawn.firingRate = 0.2f;
-                bulletSpawn.bullet = knifeList[0];
+                bulletSpawn.firingRate = 1f;
+                // bulletSpawn.bullet = knifeList[0];
+                // GameObject foundBullet = bulletSpawn.bullet;
+                // foundBullet.transform.eulerAngles = new Vector3(0, 0, 90);
+                // bulletSpawn.bullet = knifeList[0];
                 spawner.transform.position = new Vector3 (-12.5f,positions[counter],0);
-                spawner.transform.rotation = Quaternion.Euler(0, 0, 270);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
                 spawner.SetActive(false);
@@ -171,19 +183,23 @@ public class Callie : MonoBehaviour
 
     public void updateSpawnersDown()
     {
+        Debug.Log("3");
         int counter = 0;
-        float[] positions = { 2, 4, 6, 8 };
-        foreach (GameObject spawner in knifeList)
+        float[] positions = { -6.5f, 0, 6.5f};
+        foreach (GameObject spawner in spawnerList)
         {
-            if (counter <= 3)
+            if (counter <= 2)
             {
                 spawner.SetActive(true);
                 BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
-                bulletSpawn.firingRate = 0.2f;
-                bulletSpawn.bullet = knifeList[0];
+                bulletSpawn.firingRate = 1f;
+                // bulletSpawn.bullet = knifeList[3];
+                // Bullet foundBullet = bulletSpawn.bullet.GetComponent<Bullet>();
+                // foundBullet.transform.rotation = Quaternion.Euler(0, 0, 180);
+                // bulletSpawn.bullet = knifeList[0];
                 spawner.transform.position = new Vector3 (positions[counter],12.5f,0);
-                spawner.transform.rotation = Quaternion.Euler(0, 0, 180);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 270);
             }
             else
                 spawner.SetActive(false);
@@ -194,19 +210,23 @@ public class Callie : MonoBehaviour
 
     public void updateSpawnersUp()
     {
+        Debug.Log("4");
         int counter = 0;
-        float[] positions = { -6.5f, -3, 3, 6.5f };
-        foreach (GameObject spawner in knifeList)
+        float[] positions = { -6.5f, 0, 6.5f};
+        foreach (GameObject spawner in spawnerList)
         {
-            if (counter <= 3)
+            if (counter <= 2)
             {
                 spawner.SetActive(true);
                 BulletSpawner bulletSpawn = spawner.GetComponent<BulletSpawner>();
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
-                bulletSpawn.firingRate = 0.2f;
-                bulletSpawn.bullet = knifeList[0];
+                bulletSpawn.firingRate = 1f;
+                // bulletSpawn.bullet = knifeList[4];
+                // Bullet foundBullet = bulletSpawn.bullet.GetComponent<Bullet>();
+                // foundBullet.transform.rotation = Quaternion.Euler(0, 0, 0);
+                // bulletSpawn.bullet = knifeList[0];
                 spawner.transform.position = new Vector3 (positions[counter],-12.28f,0);
-                spawner.transform.rotation = Quaternion.Euler(0, 0, 0);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 90);
             }
             else
                 spawner.SetActive(false);

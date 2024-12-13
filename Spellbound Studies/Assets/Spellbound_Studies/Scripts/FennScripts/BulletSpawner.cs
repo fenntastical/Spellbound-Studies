@@ -47,5 +47,5 @@ public class BulletSpawner : MonoBehaviour
             spawnedBullet.GetComponent<Bullet>().bulletLife = bulletLife;
             spawnedBullet.transform.rotation = transform.rotation;
         }
-    }
+    }   
 }
