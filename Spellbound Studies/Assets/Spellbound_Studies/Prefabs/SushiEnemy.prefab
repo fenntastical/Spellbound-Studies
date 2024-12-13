@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5483545185875340915}
   - component: {fileID: 855035043574014600}
   - component: {fileID: 5822662556976025054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SushiEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,10 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  maxHealth: 3
-  health: 0
   greenDuration: 5
-  primaryGreenColor: {r: 0, g: 1, b: 0, a: 1}
+  primaryGreenColor: {r: 1, g: 1, b: 1, a: 1}
   secondaryGreenColor: {r: 0.5, g: 1, b: 0.5, a: 1}
   colorAlternateDuration: 0.1
   knockBackFeedback: {fileID: 0}
@@ -215,6 +213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3724b935905d4f30bb2bb654ad39c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 1
+  OnHitWithReference:
+    m_PersistentCalls:
+      m_Calls: []
+  knockBackFeedback: {fileID: 0}
+  maxHealth: 200
+  health: 200
   speed: 2
 --- !u!114 &5822662556976025054
 MonoBehaviour:
