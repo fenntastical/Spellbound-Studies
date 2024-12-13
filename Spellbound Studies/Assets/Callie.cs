@@ -39,6 +39,9 @@ public class Callie : MonoBehaviour
     Enemy healthcomp;
     public List<PanelMover> panels;
 
+    public Enemy movement;
+
+
     [ContextMenu("testUp")]
     public void testUp()
     {
@@ -69,6 +72,8 @@ public class Callie : MonoBehaviour
         {
             panel.isVisible = false;
         }
+        movement.enabled = false;
+        animator.enabled = false;
        // health = maxHealth;
     }
 
@@ -78,10 +83,12 @@ public class Callie : MonoBehaviour
         Debug.Log(healthscript.health);
         //I will add this back when i add dialogue
         // if (talking == false & continueAttack == false)
-        if (continueAttack == false)
+        if (continueAttack == false && talking == false)
         {
             StartCoroutine(attackWaiter());
             continueAttack = true;
+            movement.enabled = true;
+            animator.enabled = true;
         }
 
         if (healthcomp.health <= 250 && bigAttack == false)

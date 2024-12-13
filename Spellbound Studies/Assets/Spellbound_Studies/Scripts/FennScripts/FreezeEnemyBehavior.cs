@@ -18,6 +18,8 @@ public class FreezeEnemyBehavior : MonoBehaviour
     [HideInInspector] public PlayerMovement playerMovement;
     private Rigidbody2D playerRb; // Reference to the player's Rigidbody2D
     private bool hitOnce = false;
+    [HideInInspector] public playerCombat weapon;
+    [HideInInspector] public GameObject aim;
 
     void Start()
     {
@@ -28,6 +30,8 @@ public class FreezeEnemyBehavior : MonoBehaviour
             playerHealth = player.GetComponent<PlayerHealth>();
             playerMovement = player.GetComponent<PlayerMovement>();
             playerRb = player.GetComponent<Rigidbody2D>();
+            weapon = player.GetComponent<playerCombat>();
+            aim = GameObject.Find("SwordParent");
         }
 
         if (player == null || playerHealth == null)
@@ -82,6 +86,8 @@ public class FreezeEnemyBehavior : MonoBehaviour
         if (playerMovement != null)
         {
             playerMovement.enabled = false;
+            weapon.enabled = false;
+            aim.SetActive(false);
         }
 
         // Track total time
@@ -105,6 +111,8 @@ public class FreezeEnemyBehavior : MonoBehaviour
         if (playerMovement != null)
         {
             playerMovement.enabled = true;
+            weapon.enabled = true;
+            aim.SetActive(true);
         }
         playerSprite.color = originalColor;
 
