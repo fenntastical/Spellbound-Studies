@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SushiMovement : MonoBehaviour
+public class SushiMovement : Enemy
 {
     public float speed = 2.0f; 
     private Transform player; 
@@ -14,7 +14,7 @@ public class SushiMovement : MonoBehaviour
             player = playerObject.transform;
         }
 
-        // Get the SpriteRenderer to flip the sushi
+       // Get the SpriteRenderer to flip the sushi
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer == null)
         {
@@ -27,7 +27,7 @@ public class SushiMovement : MonoBehaviour
         if (player != null)
         {
             Vector2 direction = (player.position - transform.position).normalized;
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.position,moveSpeed * Time.deltaTime);
 
             if (direction.x > 0) 
             {

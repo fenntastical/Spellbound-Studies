@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 public class SushiEnemy : MonoBehaviour 
 {
     public int damage = 1; // Amount of damage dealt to the player
-    public float maxHealth = 3f; // Maximum health of the sushi enemy
-    [HideInInspector] public float health; // Current health of the enemy
 
     [Header("Player Color Effect")]
     public float greenDuration = 30.0f; // Duration the player stays green
@@ -21,9 +19,6 @@ public class SushiEnemy : MonoBehaviour
 
     void Start()
     {
-        // Initialize health to max health
-        health = maxHealth;
-
         // Find the player GameObject and PlayerHealth script
         player = GameObject.FindWithTag("Player");
         if (player != null)
@@ -61,35 +56,6 @@ public class SushiEnemy : MonoBehaviour
             {
                 StartCoroutine(ChangePlayerColor(playerSprite));
             }
-        }
-        else if (collision.gameObject.CompareTag("Lilith"))
-        {
-            // If hit by Lilith, take damage
-            TakeDamage(1);
-        }
-    }
-
-    public void TakeDamage(float damage)
-    {
-        // Reduce health
-        health -= damage;
-
-        // Play damage sound
-        AudioMgr.Instance.PlaySFX("Enemy Damage");
-
-        // Play knockback feedback if still alive
-        if (health > 0)
-        {
-            knockBackFeedback.PlayFeedback();
-        }
-
-        // Check if enemy is dead
-        if (health <= 0)
-        {
-            if (gameObject.tag == "Lilith")
-                SceneManager.LoadScene(4);
-            else
-                Destroy(gameObject);
         }
     }
 
