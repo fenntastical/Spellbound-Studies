@@ -10,11 +10,9 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 1f;
     Rigidbody2D rb;
     Transform target;
-    private GameObject enemy;
     Vector2 moveDirection;
     public UnityEvent<GameObject> OnHitWithReference;
     public KnockBackFeedback knockBackFeedback;
-
 
     public float maxHealth = 200f;
     [HideInInspector] public float health = 200f;
@@ -28,7 +26,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        enemy = GameObject.FindGameObjectWithTag("Enemies");
         health = maxHealth;
     }
 
@@ -55,7 +52,6 @@ public class Enemy : MonoBehaviour
         AudioMgr.Instance.PlaySFX("Enemy Damage");
         if (health > 0)
         {
-            // OnHitWithReference?.Invoke(enemy);
             knockBackFeedback.PlayFeedback();
         }
 

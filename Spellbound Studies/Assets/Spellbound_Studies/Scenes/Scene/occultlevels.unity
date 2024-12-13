@@ -19925,9 +19925,9 @@ GameObject:
   - component: {fileID: 293175093}
   - component: {fileID: 293175092}
   - component: {fileID: 293175091}
-  - component: {fileID: 293175090}
   - component: {fileID: 293175089}
   - component: {fileID: 293175099}
+  - component: {fileID: 293175100}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -20029,71 +20029,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!60 &293175090
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293175088}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.23979747, y: -0.013102531}
-      - {x: 0.25939786, y: 0.4849851}
-      - {x: -0.049179077, y: 0.4892578}
-      - {x: -0.25651824, y: 0.49212217}
-      - {x: -0.26295173, y: 0.008840799}
-      - {x: -0.18539184, y: 0.003308773}
-      - {x: -0.18720424, y: -0.05525875}
-      - {x: -0.32168353, y: -0.053471565}
-      - {x: -0.332228, y: -0.23559904}
-      - {x: -0.3889283, y: -0.5076008}
-      - {x: -0.19033724, y: -0.51258254}
-      - {x: -0.19710779, y: -0.94905746}
-      - {x: 0.20213151, y: -0.9439157}
-      - {x: 0.19384372, y: -0.5929245}
-      - {x: 0.1892544, y: -0.57090366}
-      - {x: 0.19322586, y: -0.49907577}
-      - {x: 0.3815279, y: -0.48550224}
-      - {x: 0.36826992, y: -0.067972064}
-      - {x: 0.18933487, y: -0.06364918}
-      - {x: 0.18738258, y: -0.017427683}
-  m_UseDelaunayMesh: 0
 --- !u!114 &293175091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20168,6 +20103,10 @@ MonoBehaviour:
   maxHealth: 10
   healthPanel: {fileID: 10968925}
   gameMgr: {fileID: 2066864075}
+  damageFlashDuration: 0.5
+  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  colorAlternateDuration: 0.1
 --- !u!95 &293175094
 Animator:
   serializedVersion: 5
@@ -20318,6 +20257,51 @@ MonoBehaviour:
   PlayerBullet: {fileID: 2987270793790815553, guid: 9e6ae23b2b7ddfd44ad505e4262e854a, type: 3}
   BulletSpeed: 30
   energyPanel: {fileID: 877194202}
+--- !u!61 &293175100
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293175088}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0033712387, y: -0.32355046}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.36434746, y: 0.527287}
+  m_EdgeRadius: 0
 --- !u!1 &311743482
 GameObject:
   m_ObjectHideFlags: 0

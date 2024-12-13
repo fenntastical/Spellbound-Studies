@@ -2236,6 +2236,10 @@ MonoBehaviour:
   maxHealth: 10
   healthPanel: {fileID: 1561002685}
   gameMgr: {fileID: 1837920753}
+  damageFlashDuration: 0.5
+  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  colorAlternateDuration: 0.1
 --- !u!95 &366609931
 Animator:
   serializedVersion: 5
@@ -7939,9 +7943,9 @@ GameObject:
   - component: {fileID: 2097391895}
   - component: {fileID: 2097391894}
   - component: {fileID: 2097391893}
-  - component: {fileID: 2097391892}
   - component: {fileID: 2097391891}
   - component: {fileID: 2097391890}
+  - component: {fileID: 2097391901}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -8058,71 +8062,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!60 &2097391892
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097391889}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.23979747, y: -0.013102531}
-      - {x: 0.25939786, y: 0.4849851}
-      - {x: -0.049179077, y: 0.4892578}
-      - {x: -0.25651824, y: 0.49212217}
-      - {x: -0.26295173, y: 0.008840799}
-      - {x: -0.18539184, y: 0.003308773}
-      - {x: -0.18720424, y: -0.05525875}
-      - {x: -0.32168353, y: -0.053471565}
-      - {x: -0.332228, y: -0.23559904}
-      - {x: -0.3889283, y: -0.5076008}
-      - {x: -0.19033724, y: -0.51258254}
-      - {x: -0.19710779, y: -0.94905746}
-      - {x: 0.20213151, y: -0.9439157}
-      - {x: 0.19384372, y: -0.5929245}
-      - {x: 0.1892544, y: -0.57090366}
-      - {x: 0.19322586, y: -0.49907577}
-      - {x: 0.3815279, y: -0.48550224}
-      - {x: 0.36826992, y: -0.067972064}
-      - {x: 0.18933487, y: -0.06364918}
-      - {x: 0.18738258, y: -0.017427683}
-  m_UseDelaunayMesh: 0
 --- !u!114 &2097391893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8197,6 +8136,10 @@ MonoBehaviour:
   maxHealth: 10
   healthPanel: {fileID: 1561002685}
   gameMgr: {fileID: 1837920753}
+  damageFlashDuration: 0.5
+  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  colorAlternateDuration: 0.1
 --- !u!95 &2097391896
 Animator:
   serializedVersion: 5
@@ -8332,6 +8275,51 @@ Transform:
   - {fileID: 1737366918}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2097391901
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097391889}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.016735375, y: -0.32355046}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4045607, y: 0.527287}
+  m_EdgeRadius: 0
 --- !u!1 &2132482204
 GameObject:
   m_ObjectHideFlags: 0
