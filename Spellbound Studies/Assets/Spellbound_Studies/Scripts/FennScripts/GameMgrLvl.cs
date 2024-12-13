@@ -43,6 +43,8 @@ public class GameMgrLvl : MonoBehaviour
         {
             if(SceneManager.GetActiveScene().name == "occultlevels")
                 SceneManager.LoadScene(2);
+            if(SceneManager.GetActiveScene().name == "KitchenLevels")
+                SceneManager.LoadScene(9);
             // endReached = true;
             
         }

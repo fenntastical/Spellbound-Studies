@@ -46,23 +46,22 @@ public class SushiEnemy : MonoBehaviour
             // Deal damage to the player
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(damage);
-                Debug.Log("Player took damage from sushi.");
+                playerHealth.posion = true;
             }
 
             // Change the player's color to green
-            SpriteRenderer playerSprite = collision.gameObject.GetComponent<SpriteRenderer>();
-            if (playerSprite != null)
-            {
-                StartCoroutine(ChangePlayerColor(playerSprite));
-            }
+            // SpriteRenderer playerSprite = collision.gameObject.GetComponent<SpriteRenderer>();
+            // if (playerSprite != null)
+            // {
+            //     StartCoroutine(ChangePlayerColor(playerSprite));
+            // }
         }
     }
 
     private IEnumerator ChangePlayerColor(SpriteRenderer playerSprite)
     {
         // Save the original color
-        Color originalColor = playerSprite.color;
+        Color originalColor = new Color(0,0,0);
 
         // Track total time
         float elapsedTime = 0f;

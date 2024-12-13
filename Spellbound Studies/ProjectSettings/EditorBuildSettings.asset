@@ -29,7 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Cutscene/SchoolFutureEnter.unity
     guid: 2b88314cd6ca5d84093fbf3146e97017
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/KitchenLevels.unity
+    guid: 3e29bc476a89e4243aa2c27908d7fcdc
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/CallieEnterCutscene.unity
+    guid: aa912d55f16c6de4f8d448b29a9c813d
+  - enabled: 1
     path: Assets/Spellbound_Studies/Scenes/Scene/KitchenClubBoss.unity
     guid: dbe06039ca769fc40a52a60409030919
   - enabled: 1
