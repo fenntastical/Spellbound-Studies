@@ -169,6 +169,7 @@ public class Callie : MonoBehaviour
 
     IEnumerator HealMechanic()
     {
+        animator.SetTrigger("Heal");
         while (callieAlive == true)
         {
             health += 50;
@@ -223,7 +224,7 @@ public class Callie : MonoBehaviour
     //}
     public void RandomizeAttack()
     {
-        //animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
         int attackChosen;
         attackChosen = Random.Range(1, 4);
         // print(attackChosen);
