@@ -231,7 +231,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   knockBackFeedback: {fileID: 5822662556976025054}
-  maxHealth: 200
+  maxHealth: 45
   health: 200
   speed: 2
 --- !u!114 &5822662556976025054
