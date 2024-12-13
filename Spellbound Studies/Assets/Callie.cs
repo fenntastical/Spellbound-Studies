@@ -26,6 +26,7 @@ public class Callie : MonoBehaviour
     public Enemy lHealth;
     bool bigAttack = false;
     float health;
+    Enemy healthcomp;
 
     [ContextMenu("testUp")]
     public void testUp()
@@ -52,6 +53,7 @@ public class Callie : MonoBehaviour
     {
         updateSpawnersNothing();
         animator = GetComponent<Animator>();
+        healthcomp = GetComponent<Enemy>();
        // health = maxHealth;
     }
 
@@ -67,9 +69,10 @@ public class Callie : MonoBehaviour
             continueAttack = true;
         }
 
-        if (lHealth.health <= 250 && bigAttack == false)
+        if (healthcomp.health <= 250 && bigAttack == false)
         {
-            HealMechanic();
+            healthcomp.health += 200;
+            animator.SetTrigger("Heal");
             bigAttack = true;
         }
     }
@@ -96,12 +99,11 @@ public class Callie : MonoBehaviour
 
     IEnumerator HealMechanic()
     {
-        while (callieAlive == true)
+        if (callieAlive == true)
         {
-            health += 50;
+            healthcomp.health += 200;
             animator.SetTrigger("Heal");
             yield return new WaitForSeconds(20);
-
         }
     }
     public void RandomizeAttack()

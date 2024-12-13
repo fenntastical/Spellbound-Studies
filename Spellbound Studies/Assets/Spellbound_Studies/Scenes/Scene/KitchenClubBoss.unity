@@ -6591,7 +6591,7 @@ GameObject:
   - component: {fileID: 2046616270}
   - component: {fileID: 2046616268}
   - component: {fileID: 2046616269}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Callie
   m_TagString: Callie
   m_Icon: {fileID: 0}
