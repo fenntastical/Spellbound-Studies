@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6904883030734156758}
-  - component: {fileID: 2649432417903313784}
   - component: {fileID: 7676406538482322199}
+  - component: {fileID: 980095572907515085}
+  - component: {fileID: 2649432417903313784}
+  - component: {fileID: 8331805208835789167}
   - component: {fileID: 5483545185875340915}
   - component: {fileID: 855035043574014600}
-  - component: {fileID: 980095572907515085}
-  - component: {fileID: 8331805208835789167}
   - component: {fileID: 5822662556976025054}
   m_Layer: 0
   m_Name: SushiEnemy
@@ -38,33 +38,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &2649432417903313784
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9198519936768566961}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!212 &7676406538482322199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -117,34 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5483545185875340915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9198519936768566961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13b8f1ca044714858bbdcfe6c00c8b31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  enemyHealth: 3
-  greenDuration: 5
---- !u!114 &855035043574014600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9198519936768566961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3724b935905d4f30bb2bb654ad39c35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!70 &980095572907515085
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -180,6 +125,33 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.5}
   m_Size: {x: 1.25, y: 1}
   m_Direction: 0
+--- !u!50 &2649432417903313784
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198519936768566961}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &8331805208835789167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,8 +181,41 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   knockBackFeedback: {fileID: 0}
-  maxHealth: 200
+  maxHealth: 45
   health: 200
+--- !u!114 &5483545185875340915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198519936768566961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b8f1ca044714858bbdcfe6c00c8b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  maxHealth: 3
+  health: 0
+  greenDuration: 5
+  primaryGreenColor: {r: 0, g: 1, b: 0, a: 1}
+  secondaryGreenColor: {r: 0.5, g: 1, b: 0.5, a: 1}
+  colorAlternateDuration: 0.1
+  knockBackFeedback: {fileID: 0}
+--- !u!114 &855035043574014600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9198519936768566961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3724b935905d4f30bb2bb654ad39c35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!114 &5822662556976025054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,5 +259,5 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 1
