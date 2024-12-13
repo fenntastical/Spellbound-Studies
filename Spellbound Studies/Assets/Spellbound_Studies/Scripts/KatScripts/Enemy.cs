@@ -60,6 +60,8 @@ public class Enemy : MonoBehaviour
         {
             if(gameObject.tag == "Lilith")
                 SceneManager.LoadScene(4);
+            if(gameObject.tag == "Callie")
+                SceneManager.LoadScene(1000);
             else
                 Destroy(gameObject);
         }

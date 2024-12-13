@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - Lilith
   - ignore
+  - Callie
   layers:
   - Default
   - TransparentFX
