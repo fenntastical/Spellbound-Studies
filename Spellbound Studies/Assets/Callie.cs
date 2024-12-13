@@ -35,7 +35,7 @@ public class Callie : MonoBehaviour
     float maxHealth = 50f;
     public Enemy lHealth;
     bool bigAttack = false;
-    float health;
+    // public float health;
     Enemy healthcomp;
     public List<PanelMover> panels;
 
@@ -65,6 +65,9 @@ public class Callie : MonoBehaviour
 
     void Start()
     {
+        lHealth.health = 500;
+                           Debug.Log("Start0");
+            Debug.Log("health: " + lHealth.health);
         updateSpawnersNothing();
         animator = GetComponent<Animator>();
         healthcomp = GetComponent<Enemy>();
@@ -75,6 +78,9 @@ public class Callie : MonoBehaviour
         movement.enabled = false;
         animator.enabled = false;
        // health = maxHealth;
+
+                   Debug.Log("Start");
+            Debug.Log("health: " + lHealth.health);
     }
 
     void Update()
@@ -91,18 +97,22 @@ public class Callie : MonoBehaviour
             animator.enabled = true;
         }
 
-        if (healthcomp.health <= 250 && bigAttack == false)
+        if (lHealth.health <= 250 && bigAttack == false)
         {
-            HealMechanic();
-            healthcomp.health += 200;
+            Debug.Log("Start courutine");
+            Debug.Log("health: " + lHealth.health);
+            // Debug.Break();
+            StartCoroutine(HealMechanic());
+            // HealMechanic();
+            lHealth.health += 200;
             animator.SetTrigger("Heal");
             bigAttack = true;
         }
     }
     public void TakeDamage(float damage)
     {
-        health -= damage;
-        if (health <= 0)
+        lHealth.health -= damage;
+        if (lHealth.health <= 0)
         {
             Destroy(gameObject);
         }
@@ -122,11 +132,15 @@ public class Callie : MonoBehaviour
 
     IEnumerator HealMechanic()
     {
+        Debug.Log("HealMechanic1");
         if (callieAlive == true)
         {
+            Debug.Log("HealMechanic2");
             if (spriteRenderer != null)
             {
                 StartCoroutine(AlternateColorTemporarily());
+                Debug.Log("HealMechanic3");
+                // Debug.Break();
             }
             healthcomp.health += 200;
             animator.SetTrigger("Heal");
