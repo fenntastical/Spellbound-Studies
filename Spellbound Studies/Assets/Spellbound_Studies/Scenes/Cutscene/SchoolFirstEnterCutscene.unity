@@ -319,7 +319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Melee: {fileID: 0}
   animator: {fileID: 11295868}
-  swordAnim: {fileID: 0}
   attackPoint: {fileID: 0}
   enemyLayers:
     serializedVersion: 2
@@ -380,6 +379,10 @@ MonoBehaviour:
   maxHealth: 10
   healthPanel: {fileID: 0}
   gameMgr: {fileID: 0}
+  damageFlashDuration: 0.5
+  primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
+  secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
+  colorAlternateDuration: 0.1
 --- !u!95 &11295868
 Animator:
   serializedVersion: 5
@@ -20246,8 +20249,8 @@ MonoBehaviour:
   - Ugh... What a long day...
   - Which club leader was I going to take on first?
   - Oh yeah, the occult club.
-  - (is that right?)
   - I think their door has a green rug outside...
+  - The cooking club has a pink one I think...
   textSpeed: 0.05
   textbox: {fileID: 1826980328}
   inprogress: 0

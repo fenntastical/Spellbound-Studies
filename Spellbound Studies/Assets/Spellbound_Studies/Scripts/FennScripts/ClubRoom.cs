@@ -10,6 +10,7 @@ public class ClubRoom : MonoBehaviour
     public GameObject ePrompt;
     public PanelMover confirmPanel;
     public bool locked = true;
+    public string[] doorLines;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class ClubRoom : MonoBehaviour
     public void Interact()
     {
         ePrompt.SetActive(false);
+        nyxDialogue.lines = doorLines;
         nyxDialogue.StartDialogue();
         interactable = true;
     }

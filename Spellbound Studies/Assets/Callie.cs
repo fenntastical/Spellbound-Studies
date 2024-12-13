@@ -29,6 +29,28 @@ public class Callie : MonoBehaviour
     bool bigAttack = false;
     float health;
 
+    [ContextMenu("testUp")]
+    public void testUp()
+    {
+        updateSpawnersUp();
+    }
+    [ContextMenu("testDown")]
+    public void testDown()
+    {
+        updateSpawnersDown();
+    }
+    [ContextMenu("testRight")]
+    public void testRight()
+    {
+        updateSpawnersRight();
+    }
+    [ContextMenu("testLeft")]
+    public void testLeft()
+    {
+        updateSpawnersLeft();
+    }
+
+
 
     //blocking mechanism
     //public float blockDuration = 2f; // How long blocking lasts
@@ -207,8 +229,8 @@ public class Callie : MonoBehaviour
     public void updateSpawnersRight()
     {
         int counter = 0;
-        float[] rotations = {0, 90, -90, 180};
-        foreach (GameObject spawner in spawnerList)
+        float[] positions = {  2, 6, 8, 10 };
+        foreach (GameObject spawner in knifeList)
         {
             if (counter <= 3)
             {
@@ -217,19 +239,21 @@ public class Callie : MonoBehaviour
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
                 bulletSpawn.firingRate = 0.2f;
                 bulletSpawn.bullet = knifeList[0];
-                spawner.transform.rotation = Quaternion.Euler(0, 0, rotations[counter]);
+                spawner.transform.position = new Vector3 (12.5f,positions[counter],0);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 90);
             }
             else
                 spawner.SetActive(false);
             counter++;
+
         }
     }
 
     public void updateSpawnersLeft()
     {
         int counter = 0;
-        float[] rotations = { 0, 90, -90, 180 };
-        foreach (GameObject spawner in spawnerList)
+        float[] positions = { 2, 6, 8, 10 };
+        foreach (GameObject spawner in knifeList)
         {
             if (counter <= 3)
             {
@@ -238,7 +262,8 @@ public class Callie : MonoBehaviour
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
                 bulletSpawn.firingRate = 0.2f;
                 bulletSpawn.bullet = knifeList[0];
-                spawner.transform.rotation = Quaternion.Euler(0, 0, rotations[counter]);
+                spawner.transform.position = new Vector3 (-12.5f,positions[counter],0);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 270);
             }
             else
                 spawner.SetActive(false);
@@ -250,8 +275,8 @@ public class Callie : MonoBehaviour
     public void updateSpawnersDown()
     {
         int counter = 0;
-        float[] rotations = { 0, 90, -90, 180 };
-        foreach (GameObject spawner in spawnerList)
+        float[] positions = { 2, 4, 6, 8 };
+        foreach (GameObject spawner in knifeList)
         {
             if (counter <= 3)
             {
@@ -260,7 +285,8 @@ public class Callie : MonoBehaviour
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
                 bulletSpawn.firingRate = 0.2f;
                 bulletSpawn.bullet = knifeList[0];
-                spawner.transform.rotation = Quaternion.Euler(0, 0, rotations[counter]);
+                spawner.transform.position = new Vector3 (positions[counter],12.5f,0);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 180);
             }
             else
                 spawner.SetActive(false);
@@ -272,8 +298,8 @@ public class Callie : MonoBehaviour
     public void updateSpawnersUp()
     {
         int counter = 0;
-        float[] rotations = { 0, 90, -90, 180 };
-        foreach (GameObject spawner in spawnerList)
+        float[] positions = { -6.5f, -3, 3, 6.5f };
+        foreach (GameObject spawner in knifeList)
         {
             if (counter <= 3)
             {
@@ -282,11 +308,13 @@ public class Callie : MonoBehaviour
                 bulletSpawn.spawnerType = BulletSpawner.SpawnerType.Straight;
                 bulletSpawn.firingRate = 0.2f;
                 bulletSpawn.bullet = knifeList[0];
-                spawner.transform.rotation = Quaternion.Euler(0, 0, rotations[counter]);
+                spawner.transform.position = new Vector3 (positions[counter],-12.28f,0);
+                spawner.transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else
                 spawner.SetActive(false);
             counter++;
+
         }
 
     }
