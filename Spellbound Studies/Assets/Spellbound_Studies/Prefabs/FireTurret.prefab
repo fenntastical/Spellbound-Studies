@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5db3ba6935f124b9f52490bc59e512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 4375161040987389538}
   strength: 0
   delay: 0.15
   OnBegin:

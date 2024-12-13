@@ -212,7 +212,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-  knockBackFeedback: {fileID: 0}
+  knockBackFeedback: {fileID: 5822662556976025054}
   maxHealth: 200
   health: 200
   speed: 2
@@ -275,10 +275,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   greenDuration: 2
-  primaryGreenColor: {r: 0.3523051, g: 0.3523051, b: 0.8584906, a: 1}
-  secondaryGreenColor: {r: 0.63105196, g: 0.63105196, b: 0.8207547, a: 1}
+  primaryGreenColor: {r: 1, g: 1, b: 1, a: 1}
+  secondaryGreenColor: {r: 0.3254717, g: 0.3254717, b: 1, a: 1}
   colorAlternateDuration: 0.1
-  knockBackFeedback: {fileID: 0}
+  knockBackFeedback: {fileID: 5822662556976025054}
   playerMovement: {fileID: 0}
 --- !u!1001 &8533429259519785431
 PrefabInstance:

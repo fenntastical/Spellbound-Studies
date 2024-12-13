@@ -4967,11 +4967,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 124607641710669953, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.26166666
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 124607641710669953, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 738844791970614915, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5019,15 +5019,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2008757352930469727, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6638371863513975355, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.23666666
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6638371863513975355, guid: ed513412bfa8c1d408738f542a2a5a5c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5247,6 +5247,10 @@ MonoBehaviour:
   primaryDamageColor: {r: 1, g: 0.6179246, b: 0.6179246, a: 1}
   secondaryDamageColor: {r: 1, g: 1, b: 1, a: 1}
   colorAlternateDuration: 0.25
+  primaryGreenColor: {r: 0, g: 1, b: 0, a: 1}
+  secondaryGreenColor: {r: 0.5, g: 1, b: 0.5, a: 1}
+  greenDuration: 5
+  posion: 0
 --- !u!95 &920632765
 Animator:
   serializedVersion: 5
