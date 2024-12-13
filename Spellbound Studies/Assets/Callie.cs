@@ -68,13 +68,17 @@ public class Callie : MonoBehaviour
             continueAttack = true;
         }
 
+        if (lHealth.health <= 250 && bigAttack == false)
+        {
+            HealMechanic();
+            bigAttack = true;
+        }
+
         if (target)
         {
             Vector2 direction = (target.position - transform.position).normalized;
             moveDirection = direction;
         }
-
-        AudioMgr.Instance.PlaySFX("Lilith Attack");
 
 
         // Handle blocking timers
@@ -128,7 +132,7 @@ public class Callie : MonoBehaviour
     //    }
 
     //}
-        IEnumerator attackWaiter()
+    IEnumerator attackWaiter()
     {
         while (callieAlive == true)
         {
@@ -139,6 +143,20 @@ public class Callie : MonoBehaviour
             updateSpawnersNothing();
             yield return new WaitForSeconds(2);
         }
+    }
+
+    IEnumerator HealMechanic()
+    {
+        while (callieAlive == true)
+        {
+            health += 50;
+            yield return new WaitForSeconds(10);
+
+        }
+        //counter
+        //every 20 seconds
+        //heal 50 health
+        //play animation for healing 
     }
 
     //private void StartBlocking()

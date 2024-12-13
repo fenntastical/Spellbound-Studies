@@ -6059,14 +6059,9 @@ MonoBehaviour:
   spawnerList: []
   knifeList:
   - {fileID: 2449678443641608898, guid: 22f0a855e017e6f4f8237f916d9ac523, type: 3}
-  animator: {fileID: 0}
+  animator: {fileID: 2046616269}
   talking: 1
   lHealth: {fileID: 2046616270}
-  blockDuration: 2
-  blockCooldown: 5
-  damageReductionFactor: 0.5
-  blockTriggerHealthThreshold: 0.3
-  blockProbability: 0.5
 --- !u!61 &2046616264
 BoxCollider2D:
   m_ObjectHideFlags: 0

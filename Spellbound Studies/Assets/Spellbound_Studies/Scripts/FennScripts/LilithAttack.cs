@@ -46,18 +46,19 @@ public class LilithAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(talking == false & continueAttack == false)
+        if (talking == false & continueAttack == false)
         {
             StartCoroutine(attackWaiter());
+            AudioMgr.Instance.PlaySFX("Lilith Attack");
             continueAttack = true;
         }
 
         if(lHealth.health <= 250 && bigAttack == false)
         {
             SpawnWave();
+            AudioMgr.Instance.PlaySFX("Lilith Attack");
             bigAttack = true;
         }
-        AudioMgr.Instance.PlaySFX("Lilith Attack");
         for (int i = enemies.Count - 1; i > -1; i--)
             {
                 if (enemies[i] == null)
