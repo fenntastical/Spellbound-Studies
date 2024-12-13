@@ -93,6 +93,7 @@ public class Callie : MonoBehaviour
 
         if (healthcomp.health <= 250 && bigAttack == false)
         {
+            HealMechanic();
             healthcomp.health += 200;
             animator.SetTrigger("Heal");
             bigAttack = true;

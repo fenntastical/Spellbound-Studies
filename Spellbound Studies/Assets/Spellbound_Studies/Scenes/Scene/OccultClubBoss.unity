@@ -2240,6 +2240,10 @@ MonoBehaviour:
   primaryDamageColor: {r: 1, g: 0, b: 0, a: 1}
   secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
   colorAlternateDuration: 0.1
+  primaryGreenColor: {r: 0, g: 1, b: 0, a: 1}
+  secondaryGreenColor: {r: 0.5, g: 1, b: 0.5, a: 1}
+  greenDuration: 5
+  posion: 0
 --- !u!95 &366609931
 Animator:
   serializedVersion: 5
@@ -8140,6 +8144,10 @@ MonoBehaviour:
   primaryDamageColor: {r: 1, g: 1, b: 1, a: 1}
   secondaryDamageColor: {r: 1, g: 0.5, b: 0.5, a: 1}
   colorAlternateDuration: 0.1
+  primaryGreenColor: {r: 0, g: 1, b: 0, a: 1}
+  secondaryGreenColor: {r: 0.5, g: 1, b: 0.5, a: 1}
+  greenDuration: 5
+  posion: 0
 --- !u!95 &2097391896
 Animator:
   serializedVersion: 5
