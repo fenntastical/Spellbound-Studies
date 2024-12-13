@@ -1,10 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FreezeEnemyBehavior : MonoBehaviour
 {
-   public int damage = 1; // Amount of damage dealt to the player
+    public int damage = 1; // Amount of damage dealt to the player
 
     [Header("Player Color Effect")]
     public float greenDuration = 30.0f; // Duration the player stays green
@@ -17,7 +16,7 @@ public class FreezeEnemyBehavior : MonoBehaviour
     private SpriteRenderer spriteRenderer; // For flipping the sprite
     public KnockBackFeedback knockBackFeedback;
     [HideInInspector] public PlayerMovement playerMovement;
-    private Rigidbody2D rb;
+    private Rigidbody2D playerRb; // Reference to the player's Rigidbody2D
     private bool hitOnce = false;
 
     void Start()
@@ -28,7 +27,7 @@ public class FreezeEnemyBehavior : MonoBehaviour
         {
             playerHealth = player.GetComponent<PlayerHealth>();
             playerMovement = player.GetComponent<PlayerMovement>();
-            rb = player.GetComponent<Rigidbody2D>();
+            playerRb = player.GetComponent<Rigidbody2D>();
         }
 
         if (player == null || playerHealth == null)
@@ -40,27 +39,36 @@ public class FreezeEnemyBehavior : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer == null)
         {
-            Debug.LogError("SpriteRenderer not found on SushiEnemy.");
+            Debug.LogError("SpriteRenderer not found on FreezeEnemy.");
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !hitOnce)
         {
-            // Deal damage to the player
-            // if (playerHealth != null && hitOnce != false)
-            // {
-            //     playerHealth.TakeDamage(damage);
-            //     Debug.Log("Player took damage from sushi.");
-            // }
+            hitOnce = true; // Prevent multiple hits
 
-            // Change the player's color to green
+            // Deal damage to the player
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+                Debug.Log("Player took damage from freeze enemy.");
+            }
+
+            // Stop player's movement immediately
+            if (playerRb != null)
+            {
+                playerRb.velocity = Vector2.zero; // Reset velocity
+                playerRb.angularVelocity = 0f; // Reset angular velocity (if any)
+            }
+
+
+            // Change the player's color to green and freeze movement
             SpriteRenderer playerSprite = collision.gameObject.GetComponent<SpriteRenderer>();
-            if (playerSprite != null && hitOnce == false)
+            if (playerSprite != null)
             {
                 StartCoroutine(ChangePlayerColor(playerSprite));
-                hitOnce = true;
             }
         }
     }
@@ -68,18 +76,23 @@ public class FreezeEnemyBehavior : MonoBehaviour
     private IEnumerator ChangePlayerColor(SpriteRenderer playerSprite)
     {
         // Save the original color
-        Color originalColor = Color.white;
+        Color originalColor = playerSprite.color;
+
+        // Disable player movement
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false;
+        }
 
         // Track total time
         float elapsedTime = 0f;
         bool isAlternatingColors = true;
-        playerMovement.enabled = false;
 
         while (elapsedTime < greenDuration)
         {
             // Alternate between primary and secondary green colors
             playerSprite.color = isAlternatingColors ? primaryGreenColor : secondaryGreenColor;
-            
+
             // Wait for a short duration
             yield return new WaitForSeconds(colorAlternateDuration);
 
@@ -88,9 +101,14 @@ public class FreezeEnemyBehavior : MonoBehaviour
             elapsedTime += colorAlternateDuration;
         }
 
-        playerMovement.enabled = true;
-
-        // Reset the player's color to the original
+        // Reset player's movement and color
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
         playerSprite.color = originalColor;
+
+        // Allow the enemy to hit again (if required)
+        hitOnce = false;
     }
 }
