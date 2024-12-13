@@ -6,6 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Application/Scene/Scene.Application.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Spellbound_Studies/Scenes/Scene/MainMenu.unity
+    guid: a88f76f067ca48841aac769dec14a38c
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/insideschool.unity
+    guid: 1877d4e7403694ff897d2bdd9e3eb53d
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/LilithEnterCutscene.unity
+    guid: c69d859e8c6ced446b0e7b01295d0f40
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/OccultClubBoss.unity
+    guid: 53a0ef3bbf34d884b9ce542c3d1008f3
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/LilithDefeatCutscene.unity
+    guid: e9f0b340d2542e743a184e8f08caa3ea
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Scene/occultlevels.unity
+    guid: 718bd255fe8be4c8aa35deabdce942ed
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/SchoolFirstEnterCutscene.unity
+    guid: 250a69ef01862a7458d72bf2455f69fa
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/SchoolFutureEnter.unity
+    guid: 2b88314cd6ca5d84093fbf3146e97017
+  - enabled: 0
+    path: Assets/Spellbound_Studies/Scenes/Scene/KitchenClubBoss.unity
+    guid: dbe06039ca769fc40a52a60409030919
+  - enabled: 1
+    path: Assets/Spellbound_Studies/Scenes/Cutscene/CallieDefeatCutscene.unity
+    guid: d3bee09a34b07ee4f98e50a9617bcb80
   m_configObjects: {}

@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemies
+  - Pot
+  - Undefined
+  - Bullet
+  - Lilith
+  - ignore
+  - Callie
   layers:
   - Default
   - TransparentFX
@@ -11,9 +18,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - PlayerBounds
-  - 
+  - Destructables
+  - Patroller
+  - enemy
   - 
   - 
   - 
@@ -40,4 +47,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 2030787071
+    locked: 0
+  - name: foreground
+    uniqueID: 1463069991
+    locked: 0
+  - name: walls
+    uniqueID: 3523378497
+    locked: 0
+  - name: on walls
+    uniqueID: 123398175
+    locked: 0
+  - name: decorations
+    uniqueID: 2931749169
+    locked: 0
+  - name: Player
+    uniqueID: 4184321285
+    locked: 0
+  - name: Enemies
+    uniqueID: 1110818039
+    locked: 0
+  - name: school entrance
+    uniqueID: 1201677601
     locked: 0
