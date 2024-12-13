@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -36,6 +37,7 @@ public class Callie : MonoBehaviour
     bool bigAttack = false;
     float health;
     Enemy healthcomp;
+    public List<PanelMover> panels;
 
     [ContextMenu("testUp")]
     public void testUp()
@@ -63,6 +65,10 @@ public class Callie : MonoBehaviour
         updateSpawnersNothing();
         animator = GetComponent<Animator>();
         healthcomp = GetComponent<Enemy>();
+        foreach(PanelMover panel in panels)
+        {
+            panel.isVisible = false;
+        }
        // health = maxHealth;
     }
 
@@ -128,15 +134,35 @@ public class Callie : MonoBehaviour
         switch (attackChosen)
         {
             case 1:
+                foreach(PanelMover panel in panels)
+                {
+                    panel.isVisible = false;
+                }
+                panels[0].isVisible = true;
                 updateSpawnersRight();
                 break;
             case 2:
+                foreach(PanelMover panel in panels)
+                {
+                    panel.isVisible = false;
+                }
+                panels[1].isVisible = true;
                 updateSpawnersLeft();
                 break;
             case 3:
+                foreach(PanelMover panel in panels)
+                {
+                    panel.isVisible = false;
+                }
+                panels[2].isVisible = true;
                 updateSpawnersUp();
                 break;
             case 4:
+                foreach(PanelMover panel in panels)
+                {
+                    panel.isVisible = false;
+                }
+                panels[3].isVisible = true;
                 updateSpawnersDown();
                 break;
         }
@@ -255,6 +281,10 @@ public class Callie : MonoBehaviour
     {
         foreach (GameObject spawner in spawnerList)
             spawner.SetActive(false);
+        foreach(PanelMover panel in panels)
+        {
+            panel.isVisible = false;
+        }
     }
 
     private IEnumerator AlternateColorTemporarily()
